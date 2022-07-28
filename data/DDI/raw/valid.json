@@ -1,0 +1,2123 @@
+{
+    "DDI-DrugBank.d108": {
+        "abstract": "Isocarboxazid should be administered with caution to patients receiving Antabuse (disulfiram, Wyeth-Ayerst Laboratories). In a single study, rats given high intraperitoneal doses of an MAO inhibitor plus disulfiram experienced severe toxicity, including convulsions and death. Concomitant use of Isocarboxazid and other psychotropic agents is generally not recommended because of possible potentiating effects. This is especially true in patients who may subject themselves to an overdosage of drugs. If combination therapy is needed, careful consideration should be given to the pharmacology of all agents to be used. The monoamine oxidase inhibitory effects of Isocarboxazid may persist for a substantial period after discontinuation of the drug, and this should be borne in mind when another drug is prescribed following Isocarboxazid. To avoid potentiation, the physician wishing to terminate treatment with Isocarboxazid and begin therapy with another agent should allow for an interval of 10 days.",
+        "triples": [
+            {
+                "drug": "Isocarboxazid",
+                "target": "Antabuse",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "Isocarboxazid",
+                "target": "disulfiram",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "MAO inhibitor",
+                "target": "disulfiram",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "Isocarboxazid",
+                "target": "psychotropic agents",
+                "interaction": "advise",
+                "modify": false
+            }
+        ],
+        "pmid": "DDI-DrugBank.d108"
+    },
+    "DDI-DrugBank.d348": {
+        "abstract": "Although the pressor activity of Desmopressin is very low compared to its antidiuretic activity, large doses of Desmopressin Tablets should be used with other pressor agents only with careful patient monitoring.",
+        "triples": [],
+        "pmid": "DDI-DrugBank.d348"
+    },
+    "DDI-DrugBank.d140": {
+        "abstract": "The risk of myopathy during treatment with drugs of this class is increased with concurrent administration of cyclosporine, fibric acid derivatives, niacin (nicotinic acid), erythromycin, azole antifungals. Antacid: When atorvastatin and Maalox TC suspension were coadministered, plasma concentrations of atorvastatin decreased approximately 35%. However, LDL-C reduction was not altered. Antipyrine: Because atorvastatin does not affect the pharmacokinetics of antipyrine, interactions with other drugs metabolized via the same cytochrome isozymes are not expected. Colestipol: Plasma concentrations of atorvastatin decreased approximately 25% when colestipol and atorvastatin were coadministered. However, LDL-C reduction was greater when atorvastatin and colestipol were coadministered than when either drug was given alone. Cimetidine: Atorvastatin plasma concentrations and LDL-C reduction were not altered by coadministration of cimetidine. Digoxin: When multiple doses of atorvastatin and digoxin were coadministered, steady-state plasma digoxin concentrations increased by approximately 20%. Patients taking digoxin should be monitored appropriately. Erythromycin: In healthy individuals, plasma concentrations of atorvastatin increased approximately 40% with coadministration of atorvastatin and erythromycin, a known inhibitor of cytochrome P450 3A4. Oral Contraceptives: Coadministration of atorvastatin and an oral contraceptive increased AUC values for norethindrone and ethinyl estradiol by approximately 30% and 20%. These increases should be considered when selecting an oral contraceptive for a woman taking atorvastatin. Warfarin: Atorvastatin had no clinically significant effect on prothrombin time when administered to patients receiving chronic warfarin treatment. Endocrine Function HMG-CoA reductase inhibitors interfere with cholesterol synthesis and theoretically might blunt adrenal and/or gonadal steroid production. Clinical studies have shown that atorvastatin does not reduce basal plasma cortisol concentration or impair adrenal reserve. The effects of HMG-CoA reductase inhibitors on male fertility have not been studied in adequate numbers of patients. The effects, if any, on the pituitary-gonadal axis in premenopausal women are unknown. Caution should be exercised if an HMG-CoA reductase inhibitor is administered concomitantly with drugs that may decrease the levels or activity of endogenous steroid hormones, such as ketoconazole, spironolactone, and cimetidine. CNS Toxicity Brain hemorrhage was seen in a female dog treated for 3 months at 120 mg/kg/day. Brain hemorrhage and optic nerve vacuolation were seen in another female dog that was sacrificed in moribund condition after 11 weeks of escalating doses up to 280 mg/kg/day. The 120 mg/kg dose resulted in a systemic exposure approximately 16 times the human plasma area-under-the-curve (AUC, 0-24 hours) based on the maximum human dose of 80 mg/day. A single tonic convulsion was seen in each of 2 male dogs (one treated at 10 mg/kg/day and one at 120 mg/kg/day) in a 2-year study. No CNS lesions have been observed in mice after chronic treatment for up to 2 years at doses up to 400 mg/kg/day or in rats at doses up to 100 mg/kg/day. These doses were 6 to 11 times (mouse) and 8 to 16 times (rat) the human AUC (0-24) based on the maximum recommended human dose of 80 mg/day. CNS vascular lesions, characterized by perivascular hemorrhages, edema, and mononuclear cell infiltration of perivascular spaces, have been observed in dogs treated with other members of this class. A chemically similar drug in this class produced optic nerve degeneration (Wallerian degeneration of retinogeniculate fibers) in clinically normal dogs in a dose-dependent fashion at a dose that produced plasma drug levels about 30 times higher than the mean drug level in humans taking the highest recommended dose.",
+        "triples": [
+            {
+                "drug": "atorvastatin",
+                "target": "Maalox TC",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "colestipol",
+                "target": "atorvastatin",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "atorvastatin",
+                "target": "colestipol",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "atorvastatin",
+                "target": "digoxin",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "atorvastatin",
+                "target": "erythromycin",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "atorvastatin",
+                "target": "contraceptive",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "atorvastatin",
+                "target": "norethindrone",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "atorvastatin",
+                "target": "ethinyl estradiol",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "contraceptive",
+                "target": "atorvastatin",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "HMG-CoA reductase inhibitor",
+                "target": "ketoconazole",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "HMG-CoA reductase inhibitor",
+                "target": "spironolactone",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "HMG-CoA reductase inhibitor",
+                "target": "cimetidine",
+                "interaction": "advise",
+                "modify": false
+            }
+        ],
+        "pmid": "DDI-DrugBank.d140"
+    },
+    "DDI-MedLine.d16": {
+        "abstract": "Interaction of ketamine and halothane in rats. The interaction of intramuscularly injected ketamine and its N-demethylated metabolite (metabolite I) with halothane was evaluated in rats. Five, 10, 20, or 50 mg/kg of ketamine alone or 20, 50, or 100 mg/kg of metabolite I alone produced less than 10 minutes of hypnosis. However, halothane anesthetic requirement (i.e., MAC) was depressed in a dose-dependent fashion as much as 56% 1-2 hours and as much as 14% 5-6 hours after injection of ketamine, 50 mg/kg, im. The reduction in MAC was correlated with brain levels of ketamine or metabolite I, suggesting a ketamine:metabolite I potency ration of 3:1. The half-life of ketamine in plasma and brain was longer in the presence of halothane than when ketamine was given alone. It is concluded that ketamine is not a short-acting drug and that concomitant use with halothane would be expected to prolong further the duration of its action on the central nervous system.",
+        "triples": [
+            {
+                "drug": "ketamine",
+                "target": "halothane",
+                "interaction": "int",
+                "modify": false
+            },
+            {
+                "drug": "halothane",
+                "target": "ketamine",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "ketamine",
+                "target": "halothane",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "ketamine",
+                "target": "halothane",
+                "interaction": "effect",
+                "modify": false
+            }
+        ],
+        "pmid": "DDI-MedLine.d16"
+    },
+    "DDI-DrugBank.d346": {
+        "abstract": "Studies to evaluate possible interactions between REVIA and drugs other than opiates have not been performed. Consequently, caution is advised if the concomitant administration of REVIA and other drugs is required. The safety and efficacy of concomitant use of REVIA and disulfiram is unknown, and the concomitant use of two potentially hepatotoxic medications is not ordinarily recommended unless the probable benefits outweigh the known risks. Lethargy and somnolence have been reported following doses of REVIA and thioridazine. Patients taking REVIA may not benefit from opioid containing medicines, such as cough and cold preparations, antidiarrheal preparations, and opioid analgesics. In an emergency situation when opioid analgesia must be administered to a patient receiving REVIA, the amount of opioid required may be greater than usual, and the resulting respiratory depression may be deeper and more prolonged.",
+        "triples": [
+            {
+                "drug": "REVIA",
+                "target": "disulfiram",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "REVIA",
+                "target": "thioridazine",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "REVIA",
+                "target": "opioid",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "REVIA",
+                "target": "opioid analgesics",
+                "interaction": "effect",
+                "modify": false
+            }
+        ],
+        "pmid": "DDI-DrugBank.d346"
+    },
+    "DDI-DrugBank.d526": {
+        "abstract": "When administered concurrently, the following drugs may interact with adrenal corticosteroids. Amphotericin B or potassium-depleting diuretics (benzothiadiazines and related drugs, ethacrynic acid and furosemide) enhanced hypokalemia. Check serum potassium levels at frequent intervals; use potassium supplements if necessary . Digitalis glycosides enhanced possibility of arrhythmias or digitalis toxicity associated with hypokalemia. Monitor serum potassium levels; use potassium supplements if necessary. Oral anticoagulants decreased prothrombin time response. Monitor prothrombin levels and adjust anticoagulant dosage accordingly. Antidiabetic drugs (oral agents and insulin) diminished antidiabetic effect. Monitor for symptoms of hyperglycemia; adjust dosage of antidiabetic drug upward if necessary. Aspirin increased ulcerogenic effect; decreased pharmacologic effect of aspirin. Rarely salicylate toxicity may occur in patients who discontinue steroids after concurrent high-dose aspirin therapy. Monitor salicylate levels or the therapeutic effect for which aspirin is given; adjust salicylate dosage accordingly if effect is altered. Barbiturates, phenytoin, or rifampin increased metabolic clearance of fludrocortisone acetate because of the induction of hepatic enzymes. Observe the patient for possible diminished effect of steroid and increase the steroid dosage accordingly. Anabolic steroids (particularly C-17 alkylated androgens such as oxymetholone, methandrostenolone, norethandrolone, and similar compounds) enhanced tendency toward edema. Use caution when giving these drugs together, especially in patients with hepatic or cardiac disease. Vaccines neurological complications and lack of antibody response . Estrogen increased levels of corticosteroid-binding globulin, thereby increasing the bound (inactive) fraction; this effect is at least balanced by decreased metabolism of corticosteroids. When estrogen therapy is initiated, a reduction in corticosteroid dosage may be required, and increased amounts may be required when estrogen is terminated. Drug/Laboratory Test Interactions Corticosteroids may affect the nitrobluetetrazolium test for bacterial infection and produce false-negative results . ",
+        "triples": [
+            {
+                "drug": "steroids",
+                "target": "aspirin",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "Barbiturates",
+                "target": "fludrocortisone acetate",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "phenytoin",
+                "target": "fludrocortisone acetate",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "rifampin",
+                "target": "fludrocortisone acetate",
+                "interaction": "mechanism",
+                "modify": false
+            }
+        ],
+        "pmid": "DDI-DrugBank.d526"
+    },
+    "DDI-MedLine.d82": {
+        "abstract": "Intestinal absorption of arsenate in the chick. The intestinal absorption of arsenate(As(V)) has been investigated in the chick by means of the in situ ligated duodenal loop technique. By this procedure, it was observed that arsenate is rapidly and essentially completely absorbed (80-95%) from the lumen at As(V) concentrations up to 5 mM, declining to about 50% absorption at 50 mM. Transfer from the intestinal lumen to the mucosal cells at low As(V) concentration (0.1 mM) is rapid, while transfer from the mucosal cells to the body occurs more slowly. At stable As(V) concentrations greater than 1 mM, fractional mucosal cell accumulation of As(V) remains constant, while fractional transfer to the body declines. However, total mucosal accumulation of As(V) and that transferred to the body increase in a linear logarithmic fashion from 0.05 to 5 mm As(V). The results indicate that As(V) readily penetrates both the mucosal and serosal surfaces of the epithelial membrane. Furthermore, arsenate and phosphate do not appear to share a common transport pathway in the duodenum and no evidence was obtained for any interaction between the two at this level. Vitamin D3 administration to rachitic chicks was effective in significantly elevating duodenal arsenate absorption, acting primarily to enhance serosal transport.",
+        "triples": [
+            {
+                "drug": "Vitamin D3",
+                "target": "arsenate",
+                "interaction": "mechanism",
+                "modify": false
+            }
+        ],
+        "pmid": "DDI-MedLine.d82"
+    },
+    "DDI-DrugBank.d417": {
+        "abstract": "Netilmicin should not be administered concomitantly with potent loop diuretics such as furosemide and ethacrynic acid as the potential for ototoxicity is enhanced by the combination.",
+        "triples": [
+            {
+                "drug": "Netilmicin",
+                "target": "loop diuretics",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "Netilmicin",
+                "target": "furosemide",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "Netilmicin",
+                "target": "ethacrynic acid",
+                "interaction": "advise",
+                "modify": false
+            }
+        ],
+        "pmid": "DDI-DrugBank.d417"
+    },
+    "DDI-DrugBank.d85": {
+        "abstract": "The use of NSAIDs in patients who are receiving ACE inhibitors may potentiate renal disease states. In vitro studies have shown that naproxen anion, because of its affinity for protein, may displace from their binding sites other drugs which are also albumin-bound . Theoretically, the naproxen anion itself could likewise be displaced. Short-term controlled studies failed to show that taking the drug significantly affects prothrombin times when administered to individuals on coumarin-type anticoagulants. Caution is advised nonetheless, since interactions have been seen with other nonsteroidal agents of this class. Similarly, patients receiving the drug and a hydantoin, sulfonamide or sulfonylurea should be observed for signs of toxicity to these drugs. Concomitant administration of naproxen and aspirin is not recommended because naproxen is displaced from its binding sites during the concomitant administration of aspirin, resulting in lower plasma concentrations and peak plasma levels. The natriuretic effect of furosemide has been reported to be inhibited by some drugs of this class. Inhibition of renal lithium clearance leading to increases in plasma lithium concentrations has also been reported. Naproxen and other NSAIDs can reduce the antihypertensive effect of propranolol and other beta-blockers. Probenecid given concurrently increases naproxen anion plasma levels and extends its plasma half-life significantly. Caution should be used if naproxen is administered concomitantly with methotrexate. Naproxen, naproxen sodium and other NSAIDs have been reported to reduce the tubular secretion of methotrexate in an animal model, possibly increasing the toxicity of methotrexate. Drug/Laboratory Test Interactions Naproxen may decrease platelet aggregation and prolong bleeding time. This effect should be kept in mind when bleeding times are determined. The administration of naproxen may result in increased urinary values for 17-ketogenic steroids because of an interaction between the drug and/or its metabolites with m-dinitrobenzene used in this assay. Although 17-hydroxy-corticosteroid measurements (Porter-Silber test) do not appear to be artifactually altered, it is suggested that therapy with naproxen be temporarily discontinued 72 hours before adrenal function tests are performed if the Porter-Silber test is to be used. Naproxen may interfere with some urinary assays of 5-hydroxy indoleacetic acid (5HIAA).",
+        "triples": [
+            {
+                "drug": "NSAIDs",
+                "target": "ACE inhibitors",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "naproxen",
+                "target": "aspirin",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "Naproxen",
+                "target": "propranolol",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "Naproxen",
+                "target": "beta-blockers",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "NSAIDs",
+                "target": "propranolol",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "NSAIDs",
+                "target": "beta-blockers",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "Probenecid",
+                "target": "naproxen",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "naproxen",
+                "target": "methotrexate",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "Naproxen",
+                "target": "methotrexate",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "naproxen sodium",
+                "target": "methotrexate",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "NSAIDs",
+                "target": "methotrexate",
+                "interaction": "mechanism",
+                "modify": false
+            }
+        ],
+        "pmid": "DDI-DrugBank.d85"
+    },
+    "DDI-DrugBank.d249": {
+        "abstract": "Aspirin: Concomitant administration of diclofenac and aspirin is not recommended because diclofenac is displaced from its binding sites during the concomitant administration of aspirin, resulting in lower plasma concentrations, peak plasma levels, and AUC values. Anticoagulants: While studies have not shown diclofenac to interact with anticoagulants of the warfarin type, caution should be exercised, nonetheless, since interactions have been seen with other NSAIDs. Because prostaglandins play an important role in hemostasis, and NSAIDs affect platelet function as well, concurrent therapy with all NSAIDs, including diclofenac, and warfarin requires close monitoring of patients to be certain that no change in their anticoagulant dosage is required. Digoxin, Methotrexate, Cyclosporine: Diclofenac, like other NSAIDs, may affect renal prostaglandins and increase the toxicity of certain drugs. Ingestion of diclofenac may increase serum concentrations of digoxin and methotrexate and increase cyclosporine s nephrotoxicity. Patients who begin taking diclofenac or who increase their diclofenac dose or any other NSAID while taking digoxin, methotrexate, or cyclosporine may develop toxicity characteristics for these drugs. They should be observed closely, particularly if renal function is impaired. In the case of digoxin, serum levels should be monitored. Lithium: Diclofenac decreases lithium renal clearance and increases lithium plasma levels. In patients taking diclofenac and lithium concomitantly, lithium toxicity may develop. Oral Hypoglycemics: Diclofenac does not alter glucose metabolism in normal subjects nor does it alter the effects of oral hypoglycemic agents. There are rare reports, however, from marketing experiences, of changes in effects of insulin or oral hypoglycemic agents in the presence of diclofenac that necessitated changes in the doses of such agents. Both hypo- and hyperglycemic effects have been reported. A direct causal relationship has not been established, but physicians should consider the possibility that diclofenac may alter a diabetic patient s response to insulin or oral hypoglycemic agents. Diuretics: Diclofenac and other NSAIDs can inhibit the activity of diuretics. Concomitant treatment with potassium-sparing diuretics may be associated with increased serum potassium levels. Other Drugs: In small groups of patients (7-10/interaction study), the concomitant administration of azathioprine, gold, chloroquine, D-penicillamine, prednisolone, doxycycline, or digitoxin did not significantly affect the peak levels and AUC values of diclofenac. Phenobarbital toxicity has been reported to have occurred in a patient on chronic phenobarbital treatment following the initiation of diclofenac therapy. Protein Binding In vitro, diclofenac interferes minimally or not at all with the protein binding of salicylic acid (20% decrease in binding), tolbutamide, prednisolone (10% decrease in binding), or warfarin. Benzylpenicillin, ampicillin, oxacillin, chlortetracycline, doxycycline, cephalothin, erythromycin, and sulfamethoxazole have no influence in vitro on the protein binding of diclofenac in human serum. Drug/Laboratory Test Interactions Effect on Blood Coagulation: Diclofenac increases platelet aggregation time but does not affect bleeding time, plasma thrombin clotting time, plasma fibrinogen, or factors V and VII to XII. Statistically significant changes in prothrombin and partial thromboplastin times have been reported in normal volunteers. The mean changes were observed to be less than 1 second in both instances, however, and are unlikely to be clinically important. Diclofenac is a prostaglandin synthetase inhibitor, however, and all drugs that inhibit prostaglandin synthesis interfere with platelet function to some degree; therefore, patients who may be adversely affected by such an action should be carefully observed.",
+        "triples": [
+            {
+                "drug": "diclofenac",
+                "target": "aspirin",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "diclofenac",
+                "target": "aspirin",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "diclofenac",
+                "target": "NSAIDs",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "NSAIDs",
+                "target": "warfarin",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "diclofenac",
+                "target": "warfarin",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "diclofenac",
+                "target": "digoxin",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "diclofenac",
+                "target": "methotrexate",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "diclofenac",
+                "target": "cyclosporine",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "diclofenac",
+                "target": "digoxin",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "diclofenac",
+                "target": "methotrexate",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "NSAID",
+                "target": "digoxin",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "NSAID",
+                "target": "methotrexate",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "NSAID",
+                "target": "cyclosporine",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "Diclofenac",
+                "target": "lithium",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "diclofenac",
+                "target": "lithium",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "insulin",
+                "target": "diclofenac",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "hypoglycemic agents",
+                "target": "diclofenac",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "diclofenac",
+                "target": "insulin",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "diclofenac",
+                "target": "hypoglycemic agents",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "Diclofenac",
+                "target": "diuretics",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "NSAIDs",
+                "target": "diuretics",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "phenobarbital",
+                "target": "diclofenac",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "diclofenac",
+                "target": "salicylic acid",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "diclofenac",
+                "target": "tolbutamide",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "diclofenac",
+                "target": "prednisolone",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "diclofenac",
+                "target": "warfarin",
+                "interaction": "mechanism",
+                "modify": false
+            }
+        ],
+        "pmid": "DDI-DrugBank.d249"
+    },
+    "DDI-DrugBank.d398": {
+        "abstract": "The use of codeine may result in additive CNS depressant effects when coadministered with alcohol, antihistamines, psychotropics or other drugs that produce CNS depression. Serious toxicity may result if dextromethorphan is coadministered with monoamine oxidase inhibitors (MAOIs). The use of dextromethorphan hydrobromide may result in additive CNS depressant effects when coadministered with alcohol, antihistamines, psychotropics or other drugs that produce CNS depression.",
+        "triples": [
+            {
+                "drug": "codeine",
+                "target": "alcohol",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "codeine",
+                "target": "antihistamines",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "codeine",
+                "target": "psychotropics",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "dextromethorphan",
+                "target": "monoamine oxidase inhibitors",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "dextromethorphan",
+                "target": "MAOIs",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "dextromethorphan hydrobromide",
+                "target": "alcohol",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "dextromethorphan hydrobromide",
+                "target": "antihistamines",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "dextromethorphan hydrobromide",
+                "target": "psychotropics",
+                "interaction": "effect",
+                "modify": false
+            }
+        ],
+        "pmid": "DDI-DrugBank.d398"
+    },
+    "DDI-DrugBank.d520": {
+        "abstract": "The renal effects of nephrotoxic compounds may be potentiated by Carboplatin.",
+        "triples": [],
+        "pmid": "DDI-DrugBank.d520"
+    },
+    "DDI-DrugBank.d483": {
+        "abstract": "Increases in serum creatinine have occurred when CEFOTAN was given alone. If CEFOTAN and an aminoglycoside are used concomitantly, renal function should be carefully monitored, because nephrotoxicity may be potentiated. Drug/Laboratory Test Interactions: The administration of CEFOTAN may result in a false positive reaction for glucose in the urine using Clinitest  , Benedicts solution, or Fehlings solution. It is recommended that glucose tests based on enzymatic glucose oxidase be used. As with other cephalosporins, high concentrations of cefotetan may interfere with measurement of serum and urine creatinine levels by Jaffe  reaction and produce false increases in the levels of creatinine reported.",
+        "triples": [
+            {
+                "drug": "CEFOTAN",
+                "target": "aminoglycoside",
+                "interaction": "effect",
+                "modify": false
+            }
+        ],
+        "pmid": "DDI-DrugBank.d483"
+    },
+    "DDI-MedLine.d130": {
+        "abstract": "High-dose cisplatin with sodium thiosulfate protection. Nephrotoxicity frequently limits the dose of cisplatin to less than 120 mg/m2 per injection. Sodium thiosulfate is a neutralizing agent for cisplatin that protects against renal damage. To determine whether injection of thiosulfate would permit larger doses of cisplatin to be administered, a fixed 9.9-g/m2 dose of thiosulfate was given intravenously over three hours concurrently with escalating doses of cisplatin. Cisplatin was administered over the last two hours of the thiosulfate infusion. Using this technique, it was possible to escalate the cisplatin dose to 225 mg/m2 before dose-limiting toxicities were encountered. Comparison of cisplatin pharmacokinetics in patients treated with 202.5 mg/m2 plus thiosulfate to those in patients treated with 100 mg/m2 without thiosulfate indicated that there were no changes in the elimination rate constant, volume of distribution, or total body clearance of cisplatin. The total drug exposure for the plasma was approximately twofold at the higher cisplatin dose. This study demonstrates that concurrent administration of thiosulfate permits at least a twofold increase in dose and total exposure to cisplatin.",
+        "triples": [
+            {
+                "drug": "cisplatin",
+                "target": "sodium thiosulfate",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "Sodium thiosulfate",
+                "target": "cisplatin",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "thiosulfate",
+                "target": "cisplatin",
+                "interaction": "mechanism",
+                "modify": false
+            }
+        ],
+        "pmid": "DDI-MedLine.d130"
+    },
+    "DDI-DrugBank.d110": {
+        "abstract": "The administration of local anesthetic solutions containing epinephrine or norepinephrine to patients receiving monoamine oxidase inhibitors, tricyclic antidepressants or phenothiazines may produce severe, prolonged hypotension or hypertension. Concurrent use of these agents should generally be avoided. In situations when concurrent therapy is necessary, careful patient monitoring is essential. Concurrent administration of vasopressor drugs (for the treatment of hypotension related to obstetric blocks) and ergot-type oxytocic drugs may cause severe, persistent hypertension or cerebrovascular accidents. The para-aminobenzoic acid metabolite of chloroprocaine inhibits the action of sulfonamides. Therefore, chloroprocaine should not be used in any condition in which a sulfonamide drug is being employed.",
+        "triples": [
+            {
+                "drug": "anesthetic solutions",
+                "target": "tricyclic antidepressants",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "anesthetic solutions",
+                "target": "phenothiazines",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "epinephrine",
+                "target": "monoamine oxidase inhibitors",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "epinephrine",
+                "target": "tricyclic antidepressants",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "epinephrine",
+                "target": "phenothiazines",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "norepinephrine",
+                "target": "monoamine oxidase inhibitors",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "norepinephrine",
+                "target": "tricyclic antidepressants",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "norepinephrine",
+                "target": "phenothiazines",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "vasopressor drugs",
+                "target": "ergot-type oxytocic drugs",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "chloroprocaine",
+                "target": "sulfonamide drug",
+                "interaction": "advise",
+                "modify": false
+            }
+        ],
+        "pmid": "DDI-DrugBank.d110"
+    },
+    "DDI-DrugBank.d248": {
+        "abstract": "May interact anticoagulants (altered hypo-prothrombinemic effect), barbiturates, rifampin and other inducers of hepatic microsomal enzyme oxidation system (decreased effect of diethylstilbestrol), corticosteroids (increased effect of corticosteroids).",
+        "triples": [],
+        "pmid": "DDI-DrugBank.d248"
+    },
+    "DDI-DrugBank.d283": {
+        "abstract": "Oral Anticoagulants CAUTION SHOULD BE EXERCISED WHEN COUMARIN ANTICOAGULANTS ARE GIVEN IN CONJUNCTION WITH TRICOR. THE DOSAGE OF THE ANTICOAGULANTS SHOULD BE REDUCED TO MAINTAIN THE PROTHROMBIN TIME/INR AT THE DESIRED LEVEL TO PREVENT BLEEDING COMPLICATIONS. FREQUENT PROTHROMBIN TIME/INR DETERMINATIONS ARE ADVISABLE UNTIL IT HAS BEEN DEFINITELY DETERMINED THAT THE PROTHROMBIN TIME/INR HAS STABILIZED. HMG-CoA reductase inhibitors: The combined use of TRICOR and HMG-CoA reductase inhibitors should be avoided unless the benefit of further alterations in lipid levels is likely to outweigh the increased risk of this drug combination. Resins: Since bile acid sequestrants may bind other drugs given concurrently, patients should take TRICOR at least 1 hour before or 4-6 hours after a bile acid binding resin to avoid impeding its absorption. Cyclosporine: Because cyclosporine can produce nephrotoxicity with decreases in creatinine clearance and rises in serum creatinine, and because renal excretion is the primary elimination route of fibrate drugs including TRICOR, there is a risk that an interaction will lead to deterioration. The benefits and risks of using TRICOR with immunosuppressants and other potentially nephrotoxic agents should be carefully considered, and the lowest effective dose employed . Drug-drug interactions In vitro studies using human liver microsomes indicate that fenofibrate and fenofibric acid are not inhibitors of cytochrome (CYP) P450 isoforms CYP3A4, CYP2D6, CYP2E1, or CYP1A2. They are weak inhibitors of CYP2C19 and CYP2A6, and mild-to-moderate inhibitors of CYP2C9 at therapeutic concentrations. Potentiation of coumarin-type anticoagulants has been observed with prolongation of the prothrombin time/INR. Bile acid sequestrants have been shown to bind other drugs given concurrently. Therefore, fenofibrate should be taken at least 1 hour before or 4-6 hours after a bile acid binding resin to avoid impeding its absorption . Concomitant administration of fenofibrate (equivalent to 145mg TRICOR) with pravastatin (40 mg) once daily for 10 days has been shown to increase the mean Cmax and AUC values for pravastatin by 36% (range from 69% decrease to 321% increase) and 28% (range from 54% decrease to 128% increase), respectively, and for 3 -hydroxy-iso-pravastatin by 55% (range from 32% decrease to 314% increase) and 39% (range from 24% decrease to 261% increase), respectively in 23 healthy adults. A single dose of pravastatin had no clinically important effect on the pharmacokinetics of fenofibric acid. Concomitant administration of fenofibrate (equivalent to 145 mg TRICOR) with atorvastatin (20 mg) once daily for 10 days resulted in approximately 17% decrease (range from 67% decrease to 44% increase) in atorvastatin AUC values in 22 healthy males. The atorvastatin Cmax values were not significantly affected by fenofibrate. The pharmacokinetics of fenofibric acid were not significantly affected by atorvastatin . ",
+        "triples": [
+            {
+                "drug": "COUMARIN ANTICOAGULANTS",
+                "target": "TRICOR",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "TRICOR",
+                "target": "HMG-CoA reductase inhibitors",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "TRICOR",
+                "target": "bile acid binding resin",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "cyclosporine",
+                "target": "fibrate drugs",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "cyclosporine",
+                "target": "TRICOR",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "TRICOR",
+                "target": "immunosuppressants",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "fenofibrate",
+                "target": "bile acid binding resin",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "fenofibrate",
+                "target": "pravastatin",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "TRICOR",
+                "target": "pravastatin",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "fenofibrate",
+                "target": "atorvastatin",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "TRICOR",
+                "target": "atorvastatin",
+                "interaction": "mechanism",
+                "modify": false
+            }
+        ],
+        "pmid": "DDI-DrugBank.d283"
+    },
+    "DDI-DrugBank.d171": {
+        "abstract": "Tagamet, apparently through an effect on certain microsomal enzyme systems, has been reported to reduce the hepatic metabolism of warfarin-type anticoagulants, phenytoin, propranolol, nifedipine, chlordiazepoxide, diazepam, certain tricyclic antidepressants, lidocaine, theophylline and metronidazole, thereby delaying elimination and increasing blood levels of these drugs. Clinically significant effects have been reported with the warfarin anticoagulants; therefore, close monitoring of prothrombin time is recommended, and adjustment of the anticoagulant dose may be necessary when Tagamet is administered concomitantly. Interaction with phenytoin, lidocaine and theophylline has also been reported to produce adverse clinical effects. However, a crossover study in healthy subjects receiving either Tagamet 300 mg q.i.d. or 800 mg h.s. concomitantly with a 300 mg b.i.d. dosage of theophylline (Theo-Dur , Key Pharmaceuticals, Inc.) demonstrated less alteration in steady-state theophylline peak serum levels with the 800 mg h.s. regimen, particularly in subjects aged 54 years and older. Data beyond 10 days are not available. (Note: All patients receiving theophylline should be monitored appropriately, regardless of concomitant drug therapy.) Dosage of the drugs mentioned above and other similarly metabolized drugs, particularly those of low therapeutic ratio or in patients with renal and/or hepatic impairment, may require adjustment when starting or stopping concomitantly administered Tagamet to maintain optimum therapeutic blood levels. Alteration of pH may affect absorption of certain drugs (e.g., ketoconazole). If these products are needed, they should be given at least 2 hours before cimetidine administration. Additional clinical experience may reveal other drugs affected by the concomitant administration of Tagamet.",
+        "triples": [
+            {
+                "drug": "Tagamet",
+                "target": "warfarin-type anticoagulants",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "Tagamet",
+                "target": "phenytoin",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "Tagamet",
+                "target": "propranolol",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "Tagamet",
+                "target": "nifedipine",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "Tagamet",
+                "target": "chlordiazepoxide",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "Tagamet",
+                "target": "diazepam",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "Tagamet",
+                "target": "tricyclic antidepressants",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "Tagamet",
+                "target": "lidocaine",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "Tagamet",
+                "target": "theophylline",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "Tagamet",
+                "target": "metronidazole",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "anticoagulant",
+                "target": "Tagamet",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "Tagamet",
+                "target": "Theo-Dur",
+                "interaction": "mechanism",
+                "modify": false
+            }
+        ],
+        "pmid": "DDI-DrugBank.d171"
+    },
+    "DDI-MedLine.d122": {
+        "abstract": "Behavioral mechanisms underlying the link between smoking and drinking. Many people use both alcohol and nicotine (i.e., cigarettes and other tobacco products). The behavioral effects of these two drugs differ, and they do not act on the same target sites in the brain, although they may share, or partly share, certain properties. The initiation of alcohol or nicotine use may be precipitated by similar personality characteristics in the user, such as impulsivity and sensation seeking. Moreover, the mechanisms underlying the development of dependence may be similar for alcohol and nicotine. Thus, certain factors, such as reinforcing drug effects, conditioning processes, automatic behavior, and stress, may influence the development of dependence on both drugs. Other factors, such as tolerance and sensitization to the drugs' actions and the development of withdrawal symptoms, may also contribute to dependence. This review discusses the actions of the two drugs on certain brain chemical (i.e., neurotransmitter) systems and the extent to which the effects of the two drugs may interact.",
+        "triples": [],
+        "pmid": "DDI-MedLine.d122"
+    },
+    "DDI-MedLine.d103": {
+        "abstract": "Magnesium and therapeutics. Two different types of therapy with magnesium are used: physiological oral magnesium supplementation which is totally atoxic since it palliates magnesium deficiencies by simply normalizing the magnesium intake and pharmacological magnesium therapy which may induce toxicity since it creates iatrogenic magnesium overload. Primary and secondary magnesium deficiencies constitute the sole indication of physiological oral magnesium therapy. It is therefore necessary to be well acquainted with the clinical and paraclinical pattern of magnesium deficit and to discriminate between magnesium deficiency due to an insufficient magnesium intake which only requires oral physiological supplementation and magnesium depletion related to a dysregulation of the control mechanisms of magnesium status which requires more or less specific regulation of its causal dysregulation. Physiological oral magnesium load constitutes the best tool for diagnosis of magnesium deficiency and the first step of its treatment. Physiological oral magnesium supplementation (5 mg/kg/day) is easy and can be carried out in the diet or with magnesium salts, with practically only one contra-indication: overt renal failure. Specific and aspecific treatments of magnesium depletion are tricky using for example magnesium sparing diuretics, pharmacological doses of vitamin B6, physiological doses of vitamin D and of selenium. In order to use the pharmacological properties of induced therapeutic hypermagnesaemia, high oral doses of magnesium (> 10 mg/kg/day) are advisable for chronic indications and the parenteral route is suitable for acute indications. There are 3 types of indications: specific (for the treatment of some forms of magnesium deficit i.e. acute), pharmacological (i.e. without alterations of magnesium status) and mixed--pharmacological and aetiopathogenic--(for example complications of chronic alcoholism). Today pharmacological magnesium therapy mainly concerns the obstetrical, cardiological and anaesthesiological fields. The main indications are eclampsia, some dysrhythmias (torsades de pointe particularly) and myocardial ischaemias. But it is now difficult to situate the exact place of the pharmacological indications of magnesium. Magnesium infusions can only be envisaged in intensive care units with careful monitoring of pulse, arterial pressure, deep tendon reflexes, hourly diuresis, electrocardiogram and respiratory recordings. High oral magnesium doses besides their laxative action may bring latent complications which may reduce lifespan. There may remain some indications of the laxative and antacid properties of non soluble magnesium, particularly during intermittent haemodialysis. Lastly local use of the mucocutaneous and cytoprotective properties of magnesium is still valid, in cardioplegic solutions and for preservation of transplants particularly.",
+        "triples": [],
+        "pmid": "DDI-MedLine.d103"
+    },
+    "DDI-DrugBank.d533": {
+        "abstract": "Effects of Other Drugs on Aliskiren Based on in-vitro studies, aliskiren is metabolized by CYP 3A4. Co-administration of lovastatin, atenolol, warfarin, furosemide, digoxin, celecoxib, hydrochlorothiazide, ramipril, valsartan, metformin and amlodipine did not result in clinically significant increases in aliskiren exposure. Co-administration of irbesartan reduced aliskiren Cmax up to 50% after multiple dosing. Co-administration of atorvastatin resulted in about a 50% increase in aliskiren Cmax and AUC after multiple dosing. Ketoconazole: Co-administration of 200 mg twice-daily ketoconazole with aliskiren resulted in an approximate 80% increase in plasma levels of aliskiren. A 400 mg once-daily dose was not studied but would be expected to increase aliskiren blood levels further. Effects of Aliskiren on Other Drugs Aliskiren does not inhibit the CYP450 isoenzymes (CYP1A2, 2C8, 2C9, 2C19, 2D6, 2E1, and CYP 3A) or induce CYP 3A4. Co-administration of aliskiren did not significantly affect the pharmacokinetics of lovastatin, digoxin, valsartan, amlodipine, metformin, celecoxib, atenolol, atorvastatin, ramipril or hydrochlorothiazide. Warfarin: The effects of aliskiren on warfarin pharmacokinetics have not been evaluated in a well-controlled clinical trial. Furosemide: When aliskiren was co-administered with furosemide, the AUC and Cmax of furosemide were reduced by about 30% and 50%, respectively.",
+        "triples": [
+            {
+                "drug": "irbesartan",
+                "target": "aliskiren",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "atorvastatin",
+                "target": "aliskiren",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "ketoconazole",
+                "target": "aliskiren",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "aliskiren",
+                "target": "furosemide",
+                "interaction": "mechanism",
+                "modify": false
+            }
+        ],
+        "pmid": "DDI-DrugBank.d533"
+    },
+    "DDI-MedLine.d62": {
+        "abstract": "Activation of an effector immediate-early gene arc by methamphetamine. As immediate-early genes (IEGs) are thought to play a critical role in mediating stimulus-induced neural plasticity, IEG response induced by methamphetamine (METH) has been characterized to define the changes in gene expression that may underlie its long-lasting behavioral effects. Although activation of several transcription factor IEGs has been described, little is known about effector IEGs. Here, we have examined whether METH administration affects expression of an effector IEG arc (activity-regulated, cytoskeleton-associated) that encodes a protein with homology to spectrin. Using in situ hybridization, we observed that METH caused a rapid and transient dose-dependent increase in arc mRNA level in the striatum and cortex that was abolished by pretreatment with the specific dopamine D1 receptor antagonist SCH-23390 but not by an atypical neuroleptic clozapine. METH induced arc mRNA in layers IV and VI of the cortex which dopamine receptor are localized to. These results suggest that D1 receptors are coupled to activation of arc gene, which may be involved in functional or structural alterations underlying neural plasticity triggered by METH.",
+        "triples": [
+            {
+                "drug": "METH",
+                "target": "SCH-23390",
+                "interaction": "effect",
+                "modify": false
+            }
+        ],
+        "pmid": "DDI-MedLine.d62"
+    },
+    "DDI-MedLine.d35": {
+        "abstract": "Importance of pharmacogenetics. Pharmacogenetics deals with the differences in effect of drugs caused by genetic variation. Differences can occur in therapeutic effect and in adverse events. Genetic variation in metabolism may result in high concentrations of drugs and an increased risk of adverse effects in slow metabolizers, which is important when using for example antidepressants or chemotherapy. Genetic variation also occurs in proteins interacting with drugs, which may change the effect of e.g. asthma drugs and antipsychotics. The selection of drugs and their dosages may be improved, and the number of adverse effects reduced by pharmacogenetic investigations. However, it may be important also in case of medical examinations for insurances and job appointments, since some patients may turn out to need expensive drugs or to be susceptible to a certain disease. Therefore, the use of genetic data in these instances has to be regulated.",
+        "triples": [],
+        "pmid": "DDI-MedLine.d35"
+    },
+    "DDI-DrugBank.d233": {
+        "abstract": "Use with Allopurinol: The principal pathway for detoxification of azathioprine is inhibited by allopurinol. Patients receiving azathioprine and allopurinol concomitantly should have a dose reduction of azathioprine, to approximately 1/3 to 1/4 the usual dose. Use with Other Agents Affecting Myelopoesis: Drugs which may affect leukocyte production, including co-trimoxazole, may lead to exaggerated leukopenia, especially in renal transplant recipients. Use with Angiotensln Converting Enzyme Inhibitors: The use of angiotensin converting enzyme inhibitors to control hypertension in patients on azathioprine has been reported to induce severe leukopenia.",
+        "triples": [
+            {
+                "drug": "azathioprine",
+                "target": "allopurinol",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "azathioprine",
+                "target": "allopurinol",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "angiotensin converting enzyme inhibitors",
+                "target": "azathioprine",
+                "interaction": "effect",
+                "modify": false
+            }
+        ],
+        "pmid": "DDI-DrugBank.d233"
+    },
+    "DDI-DrugBank.d222": {
+        "abstract": "When atropine and pralidoxime are used together, the signs of atropinization (flushing, mydriasis, tachycardia, dryness of the mouth and nose) may occur earlier than might be expected than when atropine is used alone because pralidoxime may potentiate the effect of atropine. The following precautions should be kept in mind in the treatment of anticholinesterase poisoning although they do not bear directly on the use of atropine and pralidoxime. Since barbiturates are potentiated by the anticholinesterases, they should be used cautiously in the treatment of convulsions.",
+        "triples": [
+            {
+                "drug": "atropine",
+                "target": "pralidoxime",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "pralidoxime",
+                "target": "atropine",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "atropine",
+                "target": "pralidoxime",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "barbiturates",
+                "target": "anticholinesterases",
+                "interaction": "advise",
+                "modify": false
+            }
+        ],
+        "pmid": "DDI-DrugBank.d222"
+    },
+    "DDI-DrugBank.d42": {
+        "abstract": "The potential for clinically significant drug-drug interactions posed by dolasetron and hydrodolasetron appears to be low for drugs commonly used in chemotherapy or surgery, because hydrodolasetron is eliminated by multiple routes. Blood levels of hydrodolasetron increased 24% when dolasetron was coadministered with cimetidine (nonselective inhibitor of cytochrome P-450) for 7 days, and decreased 28% with coadministration of rifampin (potent inducer of cytochrome P-450) for 7 days. Dolasetron has been safely coadministered with drugs used in chemotherapy and surgery. As with other agents which prolong ECG intervals, caution should be exercised in patients taking drugs which prolong ECG intervals, particularly QTc. In patients taking furosemide, nifedipine, diltiazem, ACE inhibitors, verapamil, glyburide, propranolol, and various chemotherapy agents, no effect was shown on the clearance of hydrodolasetron. Clearance of hydrodolasetron decreased by about 27% when dolasetron mesylate was administered intravenously concomitantly with atenolol. Dolasetron does not influence anesthesia recovery time in patients. Dolasetron mesylate did not inhibit the antitumor activity of four chemotherapeutic agents (cisplatin, 5-fluorouracil, doxorubicin, cyclophosphamide) in four murine models.",
+        "triples": [
+            {
+                "drug": "dolasetron",
+                "target": "cimetidine",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "dolasetron",
+                "target": "rifampin",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "dolasetron mesylate",
+                "target": "atenolol",
+                "interaction": "mechanism",
+                "modify": false
+            }
+        ],
+        "pmid": "DDI-DrugBank.d42"
+    },
+    "DDI-DrugBank.d282": {
+        "abstract": "DOSTINEX should not be administered concurrently with D2-antagonists, such as phenothiazines, butyrophenones, thioxanthines, or metoclopramide.",
+        "triples": [
+            {
+                "drug": "DOSTINEX",
+                "target": "phenothiazines",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "DOSTINEX",
+                "target": "butyrophenones",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "DOSTINEX",
+                "target": "thioxanthines",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "DOSTINEX",
+                "target": "metoclopramide",
+                "interaction": "advise",
+                "modify": false
+            }
+        ],
+        "pmid": "DDI-DrugBank.d282"
+    },
+    "DDI-DrugBank.d449": {
+        "abstract": "Co-administration with antifungal agents such as ketoconazole or itraconazole is not recommended. Nafazodone, fluvoxamine, cimetidine (consider Xanax dose reduction). Fluoxetine, OCs, sertraline, diltiazem, macrolide antibiotics (exercise caution).",
+        "triples": [
+            {
+                "drug": "Nafazodone",
+                "target": "Xanax",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "fluvoxamine",
+                "target": "Xanax",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "cimetidine",
+                "target": "Xanax",
+                "interaction": "advise",
+                "modify": false
+            }
+        ],
+        "pmid": "DDI-DrugBank.d449"
+    },
+    "DDI-DrugBank.d314": {
+        "abstract": "Aminoglutethimide: Aminoglutethimide may diminish adrenal suppression by corticosteroids. Amphotericin B injection and potassium-depleting agents: When corticosteroids are administered concomitantly with potassium-depleting agents (e.g., amphotericin B, diuretics), patients should be observed closely for development of hypokalemia. In addition, there have been cases reported in which concomitant use of amphotericin B and hydrocortisone was followed by cardiac enlargement and congestive heart failure. Antibiotics: Macrolide antibiotics have been reported to cause a significant decrease in corticosteroid clearance. Anticholinesterases: Concomitant use of anticholinesterase agents and corticosteroids may produce severe weakness in patients with myasthenia gravis. If possible, anticholinesterase agents should be withdrawn at least 24 hours before initiating corticosteroid therapy. Anticoagulants, oral: Co-administration of corticosteroids and warfarin usually results in inhibition of response to warfarin, although there have been some conflicting reports. Therefore, coagulation indices should be monitored frequently to maintain the desired anticoagulant effect. Antidiabetics: Because corticosteroids may increase blood glucose concentrations, dosage adjustments of antidiabetic agents may be required. Antitubercular drugs: Serum concentrations of isoniazid may be decreased. Cholestyramine: Cholestyramine may increase the clearance of corticosteroids. Cyclosporine: Increased activity of both cyclosporine and corticosteroids may occur when the two are used concurrently. Convulsions have been reported with this concurrent use. Dexamethasone suppression test (DST): False-negative results in the dexamethasone suppression test (DST) in patients being treated with indomethacin have been reported. Thus, results of the DST should be interpreted with caution in these patients. Digitalis glycosides: Patients on digitalis glycosides may be at increased risk of arrhythmias due to hypokalemia. Ephedrine: Ephedrine may enhance the metabolic clearance of corticosteroids, resulting in decreased blood levels and lessened physiologic activity, thus requiring an increase in corticosteroid dosage. Estrogens, including oral contraceptives: Estrogens may decrease the hepatic metabolism of certain corticosteroids, thereby increasing their effect. Hepatic Enzyme Inducers, Inhibitors and Substrates: Drugs which induce cytochrome P450 3A4 (CYP 3A4) enzyme activity (e.g., barbiturates, phenytoin, carbamazepine, rifampin) may enhance the metabolism of corticosteroids and require that the dosage of the corticosteroid be increased. Drugs which inhibit CYP 3A4 (e.g., ketoconazole, macrolide antibiotics such as erythromycin) have the potential to result in increased plasma concentrations of corticosteroids. Dexamethasone is a moderate inducer of CYP 3A4. Co-administration with other drugs that are metabolized by CYP 3A4 (e.g., indinavir, erythromycin) may increase their clearance, resulting in decreased plasma concentration. Ketoconazole: Ketoconazole has been reported to decrease the metabolism of certain corticosteroids by up to 60%, leading to increased risk of corticosteroid side effects. In addition, ketoconazole alone can inhibit adrenal corticosteroid synthesis and may cause adrenal insufficiency during corticosteroid withdrawal. Nonsteroidal anti-inflammatory agents (NSAIDS): Concomitant use of aspirin (or other nonsteroidal antiinflammatory agents) and corticosteroids increases the risk of gastrointestinal side effects. Aspirin should be used cautiously in conjunction with corticosteroids in hypoprothrombinemia. The clearance of salicylates may be increased with concurrent use of corticosteroids. Phenytoin: In post-marketing experience, there have been reports of both increases and decreases in phenytoin levels with dexamethasone co-administration, leading to alterations in seizure control. Skin tests: Corticosteroids may suppress reactions to skin tests. Thalidomide: Co-administration with thalidomide should be employed cautiously, as toxic epidermal necrolysis has been reported with concomitant use. Vaccines: Patients on corticosteroid therapy may exhibit a diminished response to toxoids and live or inactivated vaccines due to inhibition of antibody response. Corticosteroids may also potentiate the replication of some organisms contained in live attenuated vaccines. Routine administration of vaccines or toxoids should be deferred until corticosteroid therapy is discontinued if possible.",
+        "triples": [
+            {
+                "drug": "Aminoglutethimide",
+                "target": "corticosteroids",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "corticosteroids",
+                "target": "amphotericin B",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "corticosteroids",
+                "target": "diuretics",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "amphotericin B",
+                "target": "hydrocortisone",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "Macrolide antibiotics",
+                "target": "corticosteroid",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "anticholinesterase agents",
+                "target": "corticosteroids",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "anticholinesterase agents",
+                "target": "corticosteroid",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "corticosteroids",
+                "target": "warfarin",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "corticosteroids",
+                "target": "antidiabetic agents",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "Cholestyramine",
+                "target": "corticosteroids",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "cyclosporine",
+                "target": "corticosteroids",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "Ephedrine",
+                "target": "corticosteroids",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "Estrogens",
+                "target": "corticosteroids",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "barbiturates",
+                "target": "corticosteroids",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "phenytoin",
+                "target": "corticosteroids",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "carbamazepine",
+                "target": "corticosteroids",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "rifampin",
+                "target": "corticosteroids",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "ketoconazole",
+                "target": "corticosteroids",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "macrolide antibiotics",
+                "target": "corticosteroids",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "erythromycin",
+                "target": "corticosteroids",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "Ketoconazole",
+                "target": "corticosteroids",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "ketoconazole",
+                "target": "corticosteroid",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "aspirin",
+                "target": "corticosteroids",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "nonsteroidal antiinflammatory agents",
+                "target": "corticosteroids",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "Aspirin",
+                "target": "corticosteroids",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "salicylates",
+                "target": "corticosteroids",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "phenytoin",
+                "target": "dexamethasone",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "corticosteroid",
+                "target": "live vaccines",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "corticosteroid",
+                "target": "inactivated vaccines",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "Corticosteroids",
+                "target": "live attenuated vaccines",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "vaccines",
+                "target": "corticosteroid",
+                "interaction": "advise",
+                "modify": false
+            }
+        ],
+        "pmid": "DDI-DrugBank.d314"
+    },
+    "DDI-DrugBank.d567": {
+        "abstract": "CYP3A4 Interactions Lovastatin is metabolized by CYP3A4 but has no CYP3A4 inhibitory activity; therefore it is not expected to affect the plasma concentrations of other drugs metabolized by CYP3A4. Potent inhibitors of CYP3A4 (below) increase the risk of myopathy by reducing the elimination of lovastatin. Pharmacokinetics. Itraconazole Ketoconazole Erythromycin Clarithromycin Telithromycin HIV protease inhibitors Nefazodone Cyclosporine Large quantities of grapefruit juice ( 1 quart daily) Interactions with lipid-lowering drugs that can cause myopathy when given alone. The risk of myopathy is also increased by the following lipid-lowering drugs that are not potent CYP3A4 inhibitors, but which can cause myopathy when given alone. See WARNINGS, Myopathy/Rhabdomyolysis. Gemfibrozil Other fibrates Niacin (nicotinic acid) (=1 g/day) Other drug interactions Danazol: The risk of myopathy/rhabdomyolysis is increased by concomitant administration of danazol particularly with higher doses of lovastatin (see WARNINGS, Myopathy/Rhabdomyolysis). Amiodarone or Verapamil: The risk of myopathy/rhabdomyolysis is increased when either amiodarone or verapamil is used concomitantly with a closely related member of the HMG-CoA reductase inhibitor class (see WARNINGS, Myopathy/Rhabdomyolysis). Coumarin Anticoagulants: In a small clinical trial in which lovastatin was administered to warfarin treated patients, no effect on prothrombin time was detected. However, another HMG-CoA reductase inhibitor has been found to produce a less than two-second increase in prothrombin time in healthy volunteers receiving low doses of warfarin. Also, bleeding and/or increased prothrombin time have been reported in a few patients taking coumarin anticoagulants concomitantly with lovastatin. It is recommended that in patients taking anticoagulants, prothrombin time be determined before starting lovastatin and frequently enough during early therapy to insure that no significant alteration of prothrombin time occurs. Once a stable prothrombin time has been documented, prothrombin times can be monitored at the intervals usually recommended for patients on coumarin anticoagulants. If the dose of lovastatin is changed, the same procedure should be repeated. Lovastatin therapy has not been associated with bleeding or with changes in prothrombin time in patients not taking anticoagulants. Propranolol: In normal volunteers, there was no clinically significant pharmacokinetic or pharmacodynamic interaction with concomitant administration of single doses of lovastatin and propranolol. Digoxin: In patients with hypercholesterolemia, concomitant administration of lovastatin and digoxin resulted in no effect on digoxin plasma concentrations. Oral Hypoglycemic Agents: In pharmacokinetic studies of MEVACOR in hypercholesterolemic noninsulin dependent diabetic patients, there was no drug interaction with glipizide or with chlorpropamide",
+        "triples": [
+            {
+                "drug": "danazol",
+                "target": "lovastatin",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "amiodarone",
+                "target": "HMG-CoA reductase inhibitor class",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "verapamil",
+                "target": "HMG-CoA reductase inhibitor class",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "HMG-CoA reductase inhibitor",
+                "target": "warfarin",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "coumarin anticoagulant",
+                "target": "lovastatin",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "anticoagulants",
+                "target": "lovastatin",
+                "interaction": "advise",
+                "modify": false
+            }
+        ],
+        "pmid": "DDI-DrugBank.d567"
+    },
+    "DDI-DrugBank.d462": {
+        "abstract": "Aminoglycosides: The mixing of piperacillin with an aminoglycoside in vitro can result in substantial inactivation of the aminoglycoside. Vecuronium: When used in the perioperative period, piperacillin has been implicated in the prolongation of the neuromuscular blockade of vecuronium. Caution is indicated when piperacillin is used perioperatively. In one controlled clinical study, the ureidopenicillins, including piperacillin, were reported to prolong the action of vecuronium. Due to their similar mechanism of action, it is expected that the neuromuscular blockade produced by any of the non-depolarizing muscle relaxants could be prolonged in the presence of piperacillin. Probenecid: The oral combination of probenecid before intramuscular injection of PIPRACIL produces an increase in piperacillin peak serum level of about 30%. Anticoagulants: Coagulation parameters should be tested more frequently and monitored regularly during simultaneous administration of high doses of heparin, oral anticoagulants, or other drugs that may affect the blood coagulation system or the thrombocyte function. Methotrexate: Piperacillin sodium may reduce the excretion of methotrexate. Therefore, serum levels of methotrexate should be monitored in patients to avoid drug toxicity. Drug/Laboratory Test Interactions As with other penicillins, the administration of PIPRACIL may result in a false-positive reaction for glucose in the urine using a copper-reduction method. It is recommended that glucose tests based on enzymatic glucose oxidase reactions be used. There have been reports of positive test results using the Bio-Rad Laboratories Platelia Aspergillus EIA test in patients receiving piperacillin/tazobactam injection who were subsequently found to be free of Aspergillus infection. Cross-reactions with non-Aspergillus polysaccharides and polyfuranoses with the Bio-Rad Laboratories Platelia Aspergillus EIA test have been reported. Therefore, positive test results in patients receiving piperacillin should be interpreted cautiously and confirmed by other diagnostic methods.",
+        "triples": [
+            {
+                "drug": "piperacillin",
+                "target": "aminoglycoside",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "piperacillin",
+                "target": "vecuronium",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "non-depolarizing muscle relaxants",
+                "target": "piperacillin",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "probenecid",
+                "target": "PIPRACIL",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "Piperacillin sodium",
+                "target": "methotrexate",
+                "interaction": "mechanism",
+                "modify": false
+            }
+        ],
+        "pmid": "DDI-DrugBank.d462"
+    },
+    "DDI-DrugBank.d254": {
+        "abstract": "Other CNS depressant drugs (e.g. barbiturates, tranquilizers, opioids and general anesthetics) have additive or potentiating effects with INAPSINE. When patients have received such drugs, the dose of INAPSINE required will be less than usual. Following the administration of INAPSINE, the dose of other CNS depressant drugs should be reduced.",
+        "triples": [
+            {
+                "drug": "CNS depressant drugs",
+                "target": "INAPSINE",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "barbiturates",
+                "target": "INAPSINE",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "tranquilizers",
+                "target": "INAPSINE",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "opioids",
+                "target": "INAPSINE",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "anesthetics",
+                "target": "INAPSINE",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "INAPSINE",
+                "target": "CNS depressant drugs",
+                "interaction": "advise",
+                "modify": false
+            }
+        ],
+        "pmid": "DDI-DrugBank.d254"
+    },
+    "DDI-MedLine.d20": {
+        "abstract": "Interaction between glycine and glutamate in the development of spontaneous motility in chick embryos. In this study we investigated whether also glycine fulfils the function as co-activator in glutamatergic activation of NMDA receptors in the neuronal apparatus of spontaneous motility in chick embryos. The successive application of glycine (5 or 10 mg/kg egg weight (e.w.) and glutamate (15 mg/kg e.w.) The successive application of glycine (5 or 10 mg/kg egg weight (e.w.) and glutamate (15 mg/kg e.w.) in a 10 min interval significantly increased the activation of spontaneous motility of 17-day-old chick embryos in comparison with the effect of glutamate alone. This effect did not depend on the order of application of the drugs. In 13-day-old embryos, glycine was ineffective in both doses. It is concluded from these results that the modulatory effect of glycine is evidently a later developmental acquisition (after day 15 of incubation) in the embryogenesis of NMDA-ergic activation of spontaneous motility in chick embryos similarly as glycinergic inhibition.",
+        "triples": [
+            {
+                "drug": "glycine",
+                "target": "glutamate",
+                "interaction": "effect",
+                "modify": false
+            }
+        ],
+        "pmid": "DDI-MedLine.d20"
+    },
+    "DDI-DrugBank.d478": {
+        "abstract": "Ergot-containing drugs have been reported to cause prolonged vasospastic reactions. Because there is a theoretical basis that these effects may be additive, use of ergotamine-containing or ergot-type medications (like dihydroergotamine or methysergide) and naratriptan within 24 hours is contraindicated. The administration of naratriptan with other 5-HT1 agonists has not been evaluated in migraine patients. Because their vasospastic effects may be additive, coadministration of naratriptan and other 5-HT1 agonists within 24 hours of each other is not recommended. Selective serotonin reuptake inhibitors (SSRIs) (e.g., fluoxetine, fluvoxamine, paroxetine, sertraline) have been reported, rarely, to cause weakness, hyperreflexia, and incoordination when coadministered with 5-HTv agonists. If concomitant treatment with naratriptan and an SSRI is clinically warranted, appropriate observation of the patient is advised. Drug/ Laboratory Test Interactions AMERGE Tablets are not known to interfere with commonly employed clinical laboratory tests.",
+        "triples": [
+            {
+                "drug": "ergotamine",
+                "target": "naratriptan",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "ergot-type medications",
+                "target": "naratriptan",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "dihydroergotamine",
+                "target": "naratriptan",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "methysergide",
+                "target": "naratriptan",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "naratriptan",
+                "target": "5-HT1 agonists",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "naratriptan",
+                "target": "SSRI",
+                "interaction": "advise",
+                "modify": false
+            }
+        ],
+        "pmid": "DDI-DrugBank.d478"
+    },
+    "DDI-DrugBank.d336": {
+        "abstract": "Although clinical studies have not established a cause and effect relationship, physicians should be aware that variable effects an blood coagulation have been reported very rarely in patients receiving oral anticoagulants and chlordiazepoxide. The concomitant use of alcohol or other central nervous system depressants may have an additive effect.",
+        "triples": [
+            {
+                "drug": "anticoagulants",
+                "target": "chlordiazepoxide",
+                "interaction": "effect",
+                "modify": false
+            }
+        ],
+        "pmid": "DDI-DrugBank.d336"
+    },
+    "DDI-DrugBank.d423": {
+        "abstract": "In patients receiving nonselective monoamine oxidase inhibitors (MAOIs) (e.g., selegiline hydrochloride) in combination with serotoninergic agents (e.g., fluoxetine, fluvoxamine, paroxetine, sertraline, venlafaxine), there have been reports of serious, sometimes fatal, reactions. Because dexfenfluramine is a serotonin releaser and reuptake inhibitor, dexfenfluramine should not be used concomitantly with a MAO inhibitor. At least 14 days should elapse between discontinuation of a MAO inhibitor and initiation of treatment with dexfenfluramine. At least 3 weeks should elapse between discontinuation of dexfenfluramine and initiation of treatment with a MAO inhibitor. A rare, but serious, constellation of symptoms, termed serotonin syndrome, has been reported with the concomitant use of selective serotonin reuptake inhibitors (SSRIs) and agents for migraine therapy, such as Imitrex (sumatriptan succinate) and dihydroergotamine. The syndrome requires immediate medical attention and may include one or more of the following symptoms: excitement, hypomania, restlessness, loss of consciousness, confusion, disorientation, anxiety, agitation, motor weakness, myoclonus, tremor, hemiballismus, hyperreflexia, ataxia, dysarthria, incoordination, hyperthermia, shivering, pupillary dilation, diaphoresis, emesis, and tachycardia. Dexfenfluramine should not be administered with other serotoninergic agents. The appropriate interval between administration of these agents and dexfenfluramine has not been established. The use of dexfenfluramine with other CNS-active drugs has not been systematically evaluated; consequently, caution is advised if dexfenfluramine and such drugs are prescribed concurrently.",
+        "triples": [
+            {
+                "drug": "monoamine oxidase inhibitors",
+                "target": "serotoninergic agents",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "monoamine oxidase inhibitors",
+                "target": "fluoxetine",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "monoamine oxidase inhibitors",
+                "target": "fluvoxamine",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "monoamine oxidase inhibitors",
+                "target": "paroxetine",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "monoamine oxidase inhibitors",
+                "target": "sertraline",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "monoamine oxidase inhibitors",
+                "target": "venlafaxine",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "MAOIs",
+                "target": "serotoninergic agents",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "MAOIs",
+                "target": "fluoxetine",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "MAOIs",
+                "target": "fluvoxamine",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "MAOIs",
+                "target": "paroxetine",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "MAOIs",
+                "target": "sertraline",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "MAOIs",
+                "target": "venlafaxine",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "selegiline hydrochloride",
+                "target": "serotoninergic agents",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "selegiline hydrochloride",
+                "target": "fluoxetine",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "selegiline hydrochloride",
+                "target": "fluvoxamine",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "selegiline hydrochloride",
+                "target": "paroxetine",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "selegiline hydrochloride",
+                "target": "sertraline",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "selegiline hydrochloride",
+                "target": "venlafaxine",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "dexfenfluramine",
+                "target": "MAO inhibitor",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "MAO inhibitor",
+                "target": "dexfenfluramine",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "selective serotonin reuptake inhibitors",
+                "target": "Imitrex",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "selective serotonin reuptake inhibitors",
+                "target": "sumatriptan succinate",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "selective serotonin reuptake inhibitors",
+                "target": "dihydroergotamine",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "SSRIs",
+                "target": "Imitrex",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "SSRIs",
+                "target": "sumatriptan succinate",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "SSRIs",
+                "target": "dihydroergotamine",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "Dexfenfluramine",
+                "target": "serotoninergic agents",
+                "interaction": "advise",
+                "modify": false
+            }
+        ],
+        "pmid": "DDI-DrugBank.d423"
+    },
+    "DDI-MedLine.d81": {
+        "abstract": "Hypothermia as an index of the disulfiram-ethanol reaction in the rat. Decreased core temperature in female rats was investigated as one possible index of the disulfiram-ethanol reaction (DER). Core temperature was decreased in rats in a dose-dependent manner when ethanol was administered to rats treated with disulfiram 8 hours before the ethanol challenge. The decrease in temperature began within 20 minutes after ethanol administration, reaching a maximal decrease between 60 and 120 minutes post ethanol. The core temperature returned to normal 300 minutes after ethanol. The blood pressure (carotid cannulation) decreased along with the core temperature. Maximal hypotension was found 120 minutes post ethanol, and returned to normal 300 minutes after ethanol. Heart rate increased initially and returned to normal 40 minutes after ethanol challenge.",
+        "triples": [
+            {
+                "drug": "ethanol",
+                "target": "disulfiram",
+                "interaction": "effect",
+                "modify": false
+            }
+        ],
+        "pmid": "DDI-MedLine.d81"
+    },
+    "DDI-DrugBank.d198": {
+        "abstract": "Effect of other drugs on Vardenafil In vitro studies: Studies in human liver microsomes showed that vardenafil is metabolized primarily by cytochrome P450 (CYP) isoforms 3A4/5, and to a lesser degree by CYP2C9. Therefore, inhibitors of these enzymes are expected to reduce vardenafil clearance. In vivo studies: Cytochrome P450 Inhibitors Cimetidine (400 mg b.i.d.) had no effect on vardenafil bioavailability (AUC) and maximum concentration (Cmax) of vardenafil when co-administered with 20 mg Vardenafil in healthy volunteers. Erythromycin (500 mg t.i.d) produced a 4-fold increase in vardenafil AUC and a 3-fold increase in Cmax when co-administered with Vardenafil 5 mg in healthy volunteers. It is recommended not to exceed a single 5 mg dose of Vardenafil in a 24-hour period when used in combination with erythromycin. Ketoconazole (200 mg once daily) produced a 10-fold increase in vardenafil AUC and a 4-fold increase in Cmax when co-administered with Vardenafil (5 mg) in healthy volunteers. A 5-mg Vardenafil dose should not be exceeded when used in combination with 200 mg once daily ketoconazole. Since higher doses of ketoconazole (400 mg daily) may result in higher increases in Cmax and AUC, a single 2.5 mg dose of Vardenafil should not be exceeded in a 24-hour period when used in combination with ketoconazole 400 mg daily. HIV Protease Inhibitors: Indinavir (800 mg t.i.d.) co-administered with Vardenafil 10 mg resulted in a 16-fold increase in vardenafil AUC, a 7-fold increase in vardenafil Cmax and a 2-fold increase in vardenafil half-life. It is recommended not to exceed a single 2.5 mg Vardenafil dose in a 24-hour period when used in combination with indinavir. Ritonavir (600 mg b.i.d.) co-administered with Vardenafil 5 mg resulted in a 49-fold increase in vardenafil AUC and a 13-fold increase in vardenafil Cmax. The interaction is a consequence of blocking hepatic metabolism of vardenafil by ritonavir, a highly potent CYP3A4 inhibitor, which also inhibits CYP2C9. Ritonavir significantly prolonged the half-life of vardenafil to 26 hours. Consequently, it is recommended not to exceed a single 2.5 mg Vardenafil dose in a 72-hour period when used in combination with ritonavir. Other Drug Interactions: No pharmacokinetic interactions were observed between vardenafil and the following drugs: glyburide, warfarin, digoxin, Maalox, and ranitidine. In the warfarin study, vardenafil had no effect on the prothrombin time or other pharmacodynamic parameters. Effects of Vardenafil on other drugs In vitro studies: Vardenafil and its metabolites had no effect on CYP1A2, 2A6, and 2E1 (Ki   100uM). Weak inhibitory effects toward other isoforms (CYP2C8, 2C9, 2C19, 2D6, 3A4) were found, but Ki values were in excess of plasma concentrations achieved following dosing. The most potent inhibitory activity was observed for vardenafil metabolite M1, which had a Ki of 1.4 uM toward CYP3A4, which is about 20 times higher than the M1 Cmax values after an 80 mg Vardenafil dose. In vivo studies: Nitrates: The blood pressure lowering effects of sublingual nitrates (0.4 mg) taken 1 and 4 hours after vardenafil and increases in heart rate when taken at 1, 4 and 8 hours were potentiated by a 20 mg dose of Vardenafil in healthy middle-aged subjects. These effects were not observed when Vardenafil 20 mg was taken 24 hours before the NTG. Potentiation of the hypotensive effects of nitrates for patients with ischemic heart disease has not been evaluated, and concomitant use of Vardenafil and nitrates is contraindicated. Nifedipine: Vardenafil 20 mg, when co-administered with slow-release nifedipine 30 mg or 60 mg once daily, did not affect the relative bioavailability (AUC) or maximum concentration (Cmax) of nifedipine, a drug that is metabolized via CYP3A4. Nifedipine did not alter the plasma levels of Vardenafil when taken in combination. In these patients whose hypertension was controlled with nifedipine, Vardenafil 20 mg produced mean additional supine systolic/diastolic blood pressure reductions of 6/5 mm Hg compared to placebo. Alpha-blockers: When Vardenafil 10 or 20 mg was given to healthy volunteers either simultaneously or 6 hours after a 10 mg dose of terazosin, significant hypotension developed in a substantial number of subjects. With simultaneous dosing of Vardenafil 10 mg and terazosin 10 mg, 6 of 8 subjects experienced a standing systolic blood pressure of less than 85 mm Hg. With simultaneous dosing of Vardenafil 20 mg and terazosin 10 mg, 2 of 9 subjects experienced a standing systolic blood pressure of less than 85 mm Hg. When Vardenafil dosing was separated from terazosin 10 mg by 6 hours, 7 of 28 subjects who received 20 mg of Vardenafil experienced a decrease in standing systolic blood pressure below 85 mm Hg. In a similar study with tamsulosin in healthy volunteers, 1 of 24 subjects dosed with Vardenafil 20 mg and tamsulosin 0.4 mg separated by 6 hours experienced a standing systolic blood pressure below 85 mm Hg. Two of 16 subjects dosed simultaneously with Vardenafil 10 mg and tamsulosin 0.4 mg experienced a standing systolic blood pressure below 85 mm Hg. The administration of lower doses of Vardenafil with alpha-blockers has not been completely evaluated to determine if they can be safely administered together. Based on these data, Vardenafil should not be used in patients on alpha-blocker therapy. Ritonavir and indinavir: Upon concomitant administration of 5 mg of Vardenafil with 600 mg BID ritonavir, the Cmax and AUC of ritonavir were reduced by approximately 20%. Upon administration of 10 mg of Vardenafil with 800 mg TID indinavir, the Cmax and AUC of indinavir were reduced by 40% and 30%, respectively. Alcohol: Alcohol (0.5 g/kg body weight: approximately 40 mL of absolute alcohol in a 70 kg person) and vardenafil plasma levels were not altered when dosed simultaneously. Vardenafil (20 mg) did not potentiate the hypotensive effects of alcohol during the 4-hour observation period in healthy volunteers when administered with alcohol (0.5 g/kg body weight). Aspirin: Vardenafil (10 mg and 20 mg) did not potentiate the increase in bleeding time caused by aspirin (two 81 mg tablets). Other interactions: Vardenafil had no effect on the pharmacodynamics of glyburide (glucose and insulin concentrations) and warfarin (prothrombin time or other pharmacodynamic parameters).",
+        "triples": [
+            {
+                "drug": "Erythromycin",
+                "target": "vardenafil",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "Vardenafil",
+                "target": "erythromycin",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "Ketoconazole",
+                "target": "vardenafil",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "Vardenafil",
+                "target": "ketoconazole",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "Indinavir",
+                "target": "Vardenafil",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "Vardenafil",
+                "target": "indinavir",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "Ritonavir",
+                "target": "Vardenafil",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "vardenafil",
+                "target": "ritonavir",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "Ritonavir",
+                "target": "vardenafil",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "Vardenafil",
+                "target": "ritonavir",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "nitrates",
+                "target": "vardenafil",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "Vardenafil",
+                "target": "nitrates",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "nifedipine",
+                "target": "Vardenafil",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "Vardenafil",
+                "target": "terazosin",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "Vardenafil",
+                "target": "tamsulosin",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "Vardenafil",
+                "target": "alpha-blocker",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "Vardenafil",
+                "target": "ritonavir",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "Vardenafil",
+                "target": "indinavir",
+                "interaction": "mechanism",
+                "modify": false
+            }
+        ],
+        "pmid": "DDI-DrugBank.d198"
+    },
+    "DDI-DrugBank.d438": {
+        "abstract": "In vitro studies were conducted to investigate the potential of gabapentin to inhibit the major cytochrome P450 enzymes (CYP1A2, CYP2A6, CYP2C9, CYP2C19, CYP2D6, CYP2E1, and CYP3A4) that mediate drug and xenobiotic metabolism using isoform selective marker substrates and human liver microsomal preparations. Only at the highest concentration tested (171 g/mL; 1 mM) was a slight degree of inhibition (14%-30%) of isoform CYP2A6 observed. No inhibition of any of the other isoforms tested was observed at gabapentin concentrations up to 171 mg/mL (approximately 15 times the Cmax at 3600 mg/day). Gabapentin is not appreciably metabolized nor does it interfere with the metabolism of commonly coadministered antiepileptic drugs. The drug interaction data described in this section were obtained from studies involving healthy adults and adult patients with epilepsy. Phenytoin: In a single (400 mg) and multiple dose (400 mg TID) study of Neurontin in epileptic patients (N=8) maintained on phenytoin monotherapy for at least 2 months, gabapentin had no effect on the steady-state trough plasma concentrations of phenytoin and phenytoin had no effect on gabapentin pharmacokinetics. Carbamazepine: Steady-state trough plasma carbamazepine and carbamazepine 10, 11 epoxide concentrations were not affected by concomitant gabapentin (400 mg TID; N=12) administration. Likewise, gabapentin pharmacokinetics were unaltered by carbamazepine administration. Valproic Acid: The mean steady-state trough serum valproic acid concentrations prior to and during concomitant gabapentin administration (400 mg TID; N=17) were not different and neither were gabapentin pharmacokinetic parameters affected by valproic acid. Phenobarbital: Estimates of steady-state pharmacokinetic parameters for phenobarbital or gabapentin (300 mg TID; N=12) are identical whether the drugs are administered alone or together. Naproxen: Coadministration (N=18) of naproxen sodium capsules (250 mg) with Neurontin (125 mg) appears to increase the amount of gabapentin absorbed by 12% to 15%. Gabapentin had no effect on naproxen pharmacokinetic parameters. These doses are lower than the therapeutic doses for both drugs. The magnitude of interaction within the recommended dose ranges of either drug is not known. Hydrocodone: Coadministration of Neurontin  (125 to 500 mg; N=48) decreases hydrocodone (10 mg; N=50) Cmax and AUC values in a dose-dependent manner relative to administration of hydrocodone alone; Cmax and AUC values are 3% to 4% lower, respectively, after administration of 125 mg Neurontin  and 21% to 22% lower, respectively, after administration of 500 mg Neurontin . The mechanism for this interaction is unknown. Hydrocodone increases gabapentin AUC values by 14%. The magnitude of interaction at other doses is not known. Morphine: A literature article reported that when a 60-mg controlled-release morphine capsule was administered 2 hours prior to a 600-mg Neurontin  capsule (N=12), mean gabapentin AUC increased by 44% compared to gabapentin administered without morphine. Morphine pharmacokinetic parameter values were not affected by administration of Neurontin  2 hours after morphine. The magnitude of interaction at other doses is not known. Cimetidine: In the presence of cimetidine at 300 mg QID (N=12) the mean apparent oral clearance of gabapentin fell by 14% and creatinine clearance fell by 10%. Thus cimetidine appeared to alter the renal excretion of both gabapentin and creatinine, an endogenous marker of renal function. This small decrease in excretion of gabapentin by cimetidine is not expected to be of clinical importance. The effect of gabapentin on cimetidine was not evaluated. Oral Contraceptive: Based on AUC and half-life, multiple-dose pharmacokinetic profiles of norethindrone and ethinyl estradiol following administration of tablets containing 2.5 mg of norethindrone acetate and 50 mcg of ethinyl estradiol were similar with and without coadministration of gabapentin (400 mg TID; N=13). The Cmax of norethindrone was 13% higher when it was coadministered with gabapentin; this interaction is not expected to be of clinical importance. Antacid (Maalox ): Maalox reduced the bioavailability of gabapentin (N=16) by about 20%. This decrease in bioavailability was about 5% when gabapentin was administered 2 hours after Maalox. It is recommended that gabapentin be taken at least 2 hours following Maalox administration. Effect of Probenecid: Probenecid is a blocker of renal tubular secretion. Gabapentin pharmacokinetic parameters without and with probenecid were comparable. This indicates that gabapentin does not undergo renal tubular secretion by the pathway that is blocked by probenecid. Drug/Laboratory Tests Interactions Because false positive readings were reported with the Ames N-Multistix SG dipstick test for urinary protein when gabapentin was added to other antiepileptic drugs, the more specific sulfosalicylic acid precipitation procedure is recommended to determine the presence of urine protein . ",
+        "triples": [
+            {
+                "drug": "naproxen sodium",
+                "target": "Neurontin",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "Hydrocodone",
+                "target": "gabapentin",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "morphine",
+                "target": "Neurontin",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "cimetidine",
+                "target": "gabapentin",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "gabapentin",
+                "target": "cimetidine",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "norethindrone",
+                "target": "gabapentin",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "Maalox",
+                "target": "gabapentin",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "gabapentin",
+                "target": "Maalox",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "gabapentin",
+                "target": "Maalox",
+                "interaction": "advise",
+                "modify": false
+            }
+        ],
+        "pmid": "DDI-DrugBank.d438"
+    },
+    "DDI-DrugBank.d325": {
+        "abstract": "Because dopamine is metabolized by monoamine oxidase (MAO), inhibition of this enzyme prolongs and potentiates the effect of dopamine. Patients who have been treated with MAO inhibitors within two to three weeks prior to the administration of dopamine HCl should receive initial doses of dopamine HCl no greater than one-tenth (1/10) of the usual dose. Concurrent administration of low-dose dopamine HCl and diuretic agents may produce an additive or potentiating effect on urine flow. Tricyclic antidepressants may potentiate the cardiovascular effects of adreneric agents. Cardiac effects of dopamine are antagonized by beta-adrenergic blocking agents, such as propranolol and metoprolol. The peripheral vasoconstriction caused by high doses of dopamine HCl is antagonized by alpha-adrenergic blocking agents. Dopamine-induced renal and mesenteric vasodilation is not antagonized by either alpha- or beta-adrenergic blocking agents. Butyrophenones (such as haloperidol) and phenothiazines can suppress the dopaminergic renal and mesenteric vasodilation induced with low dose dopamine infusion. Cyclopropane or halogenated hydrocarbon anesthetics increase cardiac autonomic irritability and may sensitize the myocardium to the action of certain intravenously administered catecholamines, such as dopamine. This interaction appears to be related both to pressor activity and to beta-adrenergic stimulating properties of these catecholamines and may produce ventricular arrhythmias and hypertension. Therefore, EXTREME CAUTION should be exercised when administering dopamine HCl to patients receiving cyclopropane or halogenated hydrocarbon anesthetics. It has been reported that results of studies in animals indicate that dopamine-induced ventricular arrhythmias during anesthesia can be reversed by propranolol. The concomitant use of vasopressors, vasoconstricting agents (such as ergonovine) and some oxytocic drugs may result in severe hypertension. Administration of phenytoin to patients receiving dopamine HCl has been reported to lead to hypotension and bradycardia. It is suggested that in patients receiving dopamine HCl, alternatives to phenytoin should be used if anticonvulsant therapy is needed.",
+        "triples": [
+            {
+                "drug": "MAO inhibitors",
+                "target": "dopamine HCl",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "dopamine HCl",
+                "target": "diuretic agents",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "dopamine",
+                "target": "beta-adrenergic blocking agents",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "dopamine",
+                "target": "propranolol",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "dopamine",
+                "target": "metoprolol",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "dopamine HCl",
+                "target": "alpha-adrenergic blocking agents",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "Butyrophenones",
+                "target": "dopamine",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "haloperidol",
+                "target": "dopamine",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "phenothiazines",
+                "target": "dopamine",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "Cyclopropane",
+                "target": "catecholamines",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "Cyclopropane",
+                "target": "dopamine",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "halogenated hydrocarbon anesthetics",
+                "target": "catecholamines",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "halogenated hydrocarbon anesthetics",
+                "target": "dopamine",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "dopamine HCl",
+                "target": "cyclopropane",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "dopamine HCl",
+                "target": "halogenated hydrocarbon anesthetics",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "vasopressor",
+                "target": "oxytocic drugs",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "ergonovine",
+                "target": "oxytocic drugs",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "phenytoin",
+                "target": "dopamine HCl",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "dopamine HCl",
+                "target": "phenytoin",
+                "interaction": "advise",
+                "modify": false
+            }
+        ],
+        "pmid": "DDI-DrugBank.d325"
+    },
+    "DDI-DrugBank.d426": {
+        "abstract": "Ergot-containing drugs have been reported to cause prolonged vasospastic reactions. Due to a theoretical risk of a pharmacodynamic interaction, use of ergotamine-containing or ergot-type medications (like dihydroergotamine or methysergide) and FROVA within 24 hours of each other should be avoided (see  a href= frova_od.htm#CI CONTRAINDICATIONS). Concomitant use of other 5-HT1B/1D agonists within 24 hours of FROVA treatment is not recommended. Selective serotonin reuptake inhibitors (SSRIs) (e.g., fluoxetine, fluvoxamine, paroxetine, sertraline) have been reported, rarely, to cause weakness, hyperreflexia, and incoordination when coadministered with 5-HT1 agonists. If concomitant treatment with frovatriptan and an SSRI is clinically warranted, appropriate observation of the patient is advised. Drug/Laboratory Test Interactions FROVA is not known to interfere with commonly employed clinical laboratory tests.",
+        "triples": [
+            {
+                "drug": "ergotamine",
+                "target": "FROVA",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "ergot-type medications",
+                "target": "FROVA",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "dihydroergotamine",
+                "target": "FROVA",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "methysergide",
+                "target": "FROVA",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "Selective serotonin reuptake inhibitors",
+                "target": "5-HT1 agonists",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "SSRIs",
+                "target": "5-HT1 agonists",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "fluoxetine",
+                "target": "5-HT1 agonists",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "fluvoxamine",
+                "target": "5-HT1 agonists",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "paroxetine",
+                "target": "5-HT1 agonists",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "sertraline",
+                "target": "5-HT1 agonists",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "frovatriptan",
+                "target": "SSRI",
+                "interaction": "advise",
+                "modify": false
+            }
+        ],
+        "pmid": "DDI-DrugBank.d426"
+    },
+    "DDI-MedLine.d27": {
+        "abstract": "[The GABA-ergic system and brain edema];It has been shown in rats with experimental toxic and traumatic edemas that picrotoxin (1 mg/kg) removes the antiedematous action of diazepam, phenazepam, phenibut and amizyl and reduces the action of phentolamine. When the dose of picrotoxin is minimized to 0.5 mg/kg such an effect is not observed. Prolonged daily administration of picrotoxin in a dose of 1 mg/kg results in the development of brain edema. It is recommended that GABA-positive drugs be included into a complex of treatment measures for edema.",
+        "triples": [
+            {
+                "drug": "picrotoxin",
+                "target": "diazepam",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "picrotoxin",
+                "target": "phenazepam",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "picrotoxin",
+                "target": "phenibut",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "picrotoxin",
+                "target": "amizyl",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "picrotoxin",
+                "target": "phentolamine",
+                "interaction": "effect",
+                "modify": false
+            }
+        ],
+        "pmid": "DDI-MedLine.d27"
+    },
+    "DDI-MedLine.d24": {
+        "abstract": "Excretion of thioethers in urine after exposure to electrophilic chemicals. Electrophilic agents--a class of chemicals that includes most genotoxic compounds--can be inactivated by reaction with glutathione or other SH-bearing molecules. The conjugates so formed often appear in the urine as mercapturic acids or other thioether products. This paper critically reviews the suitability of the urinary thioether assay as a method for the detection of exposure to electrophilic agents or their precursors. In practice, the greatest value of the thioether assay appears to lie in its signal function. This is demonstrated for cigarette smokers and industrial workers involved in chemical waste incineration. Whenever increased thioether excretion is observed, it is likely to be due to exposure to one or more suspect compounds. However, when the thioether concentration ranges within the limits of the normal value, one must not conclude that there is no, or negligible, exposure. More specific applications of the assay of thio compounds in urine allow development of selective methods that may be useful for biological monitoring.",
+        "triples": [],
+        "pmid": "DDI-MedLine.d24"
+    },
+    "DDI-DrugBank.d169": {
+        "abstract": "Results from human in vitro metabolism studies and nonclinical studies show that REVLIMID  (lenalidomide) is neither metabolized by nor inhibits or induces the cytochrome P450 pathway suggesting that lenalidomide is not likely to cause or be subject to P450-based metabolic drug interactions in man. Co-administration of multiple doses of 10 mg of lenalidomide had no effect on the single dose pharmacokinetics of R- and S- warfarin. Co-administration of single 25-mg dose warfarin had no effect on the pharmacokinetics of total lenalidomide. Expected changes in laboratory assessments of PT and INR were observed after warfarin administration, but these changes were not affected by concomitant lenalidomide administration.",
+        "triples": [],
+        "pmid": "DDI-DrugBank.d169"
+    },
+    "DDI-DrugBank.d77": {
+        "abstract": "In occasional susceptible patients or in those receiving anticholinergic drugs (including antiparkinsonism agents) in addition, the atropine-like effects may become more pronounced (e.g., paralytic ileus). Close supervision and careful adjustment of dosage is required when this drug is administered concomitantly with anticholinergic drugs. Avoid the use of preparations such as decongestants and local anesthetics which contain any sympathomimetic amine (e.g., epinephrine, norepinephrine), since it has been reported that tricyclic antidepressants can potentiate the effects of catecholamines. Caution should be exercised when imipramine hydrochloride is used with agents that lower blood pressure. Imipramine hydrochloride may potentiate the effects of CNS depressant drugs. The plasma concentration of imipramine may increase when the drug is given concomitantly with hepatic enzyme inhibitors (e.g., cimetidine, fluoxetine) and decrease by concomitant administration of hepatic enzyme inducers (e.g., barbiturates, phenytoin), and adjustment of the dosage of imipramine may therefore be necessary. Drugs Metabolized by P450 2D6 The biochemical activity of the drug metabolizing isozyme cytochrome P450 2D6 (debrisoquin hydroxylase) is reduced in a subset of the caucasian population (about 7 to 10% of caucasians are so called poor metabolizers); reliable estimates of the prevalence of reduced P450 2D6 isozyme activity among Asian, African and other populations are not yet available. Poor metabolizers have higher than expected plasma concentrations of tricyclic antidepressants (TCAs) when given usual doses. Depending on the fraction of drug metabolized by P450 2D6, the increase in plasma concentration may be small, or quite large (8-fold increase in plasma AUC of the TCA). In addition, certain drugs inhibit the activity of this isozyme and make normal metabolizers resemble p.o. metabolizers. An individual who is stable on a given dose of TCA may become abruptly toxic when given one of these inhibiting drugs as concomitant therapy. The drugs that inhibit cytochrome P450 2D6 include some that are not metabolized by the enzyme (quinidine; cimetidine) and many that are substrates for P450 2D6 (many other antidepressants, phenothiazines, and the Type 1C antiarrhythmics propafenone and flecainide). While all the selective serotonin reuptake inhibitors (SSRIs), e. g., fluoxetine, sertraline, and paroxetine, inhibit P450 2D6, they may vary in the extent of inhibition. The extent to which SSRI-TCA interactions may pose clinical problems will depend on the degree of inhibition, and the pharmacokinetics of the SSRI involved. Nevertheless, caution is indicated in the co-administration of TCA5 with any of the SSRIs and also in switching from one class to the other. Of particular importance, sufficient time must elapse before initiating TCA treatment in a patient being withdrawn from fluoxetine, given the long half-life of the parent and active metabolite (at least 5 weeks may be necessary). Concomitant use of tricyclic antidepressants with drugs that can inhibit cytochrome P450 2D6 may require lower doses than usually prescribed for either the tricyclic antidepressant or the other drug. Furthermore, whenever one of these other drugs is withdrawn from cotherapy, an increased dose of tricyclic antidepressant may be required. It is desirable to monitor TCA plasma levels whenever a TCA is going to be co-administered with another drug known to be an inhibitor of P450 2D6.",
+        "triples": [
+            {
+                "drug": "decongestants",
+                "target": "tricyclic antidepressants",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "anesthetics",
+                "target": "tricyclic antidepressants",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "sympathomimetic amine",
+                "target": "tricyclic antidepressants",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "epinephrine",
+                "target": "tricyclic antidepressants",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "norepinephrine",
+                "target": "tricyclic antidepressants",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "Imipramine hydrochloride",
+                "target": "CNS depressant drugs",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "imipramine",
+                "target": "cimetidine",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "imipramine",
+                "target": "fluoxetine",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "imipramine",
+                "target": "barbiturates",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "imipramine",
+                "target": "phenytoin",
+                "interaction": "mechanism",
+                "modify": false
+            },
+            {
+                "drug": "SSRI",
+                "target": "TCA",
+                "interaction": "int",
+                "modify": false
+            }
+        ],
+        "pmid": "DDI-DrugBank.d77"
+    },
+    "DDI-DrugBank.d310": {
+        "abstract": "It is possible that the cardiovascular action of other calcium channel blockers could be enhanced by the addition of Nimotop . In Europe, Nimotop  was observed to occasionally intensify the effect of antihypertensive compounds taken concomitantly by patients suffering from hypertension; this phenomenon was not observed in North American clinical trials. A study in eight healthy volunteers has shown a 50% increase in mean peak nimodipine plasma concentrations and a 90% increase in mean area under the curve, after a one week course of cimetidine at 1,000 mg/day and nimodipine at 90 mg/day. This effect may be mediated by the known inhibition of hepatic cytochrome P- 450 by cimetidine, which could decrease first pass metabolism of nimodipine.",
+        "triples": [
+            {
+                "drug": "calcium channel blockers",
+                "target": "Nimotop",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "Nimotop",
+                "target": "antihypertensive compounds",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "cimetidine",
+                "target": "nimodipine",
+                "interaction": "mechanism",
+                "modify": false
+            }
+        ],
+        "pmid": "DDI-DrugBank.d310"
+    },
+    "DDI-DrugBank.d221": {
+        "abstract": "The risk of a potential interaction between NovoSeven and coagulation factor concentrates has not been adequately evaluated in preclinical or clinical studies. Simultaneous use of activated prothrombin complex concentrates or prothrombin complex concentrates should be avoided. Although the specific drug interaction was not studied in a clinical trial, there have been more than 50 episodes of concomitant use of antifibrinolytic therapies (i.e., tranexamic acid, aminocaproic acid) and NovoSeven. NovoSeven should not be mixed with infusion solutions until clinical data are available to direct this use.",
+        "triples": [],
+        "pmid": "DDI-DrugBank.d221"
+    },
+    "DDI-DrugBank.d502": {
+        "abstract": "Ocupress should be used with caution in patients who are receiving a beta-adrenergic blocking agent orally because of the potential for additive effects on systemic beta-blockade. Close observation of the patient is recommended when a beta-blocker is administered to patients receiving catecholamine-depleting drugs such as reserpine, because of possible additive effects and the production of hypotension and/or marked bradycardia, which may produce vertigo, syncope, or postural hypotension.",
+        "triples": [
+            {
+                "drug": "Ocupress",
+                "target": "beta-adrenergic blocking agent",
+                "interaction": "advise",
+                "modify": false
+            },
+            {
+                "drug": "beta-blocker",
+                "target": "reserpine",
+                "interaction": "advise",
+                "modify": false
+            }
+        ],
+        "pmid": "DDI-DrugBank.d502"
+    },
+    "DDI-DrugBank.d265": {
+        "abstract": "Chlorthalidone may add to or potentiate the action of other antihypertensive drugs. Potentiation occurs with ganglionic peripheral adrenergic blocking drugs. Medication such as digitalis may also influence serum electrolytes. Warning signs, irrespective of cause, are: dryness of mouth, thirst, weakness, lethargy, drowsiness, restlessness, muscle pains or cramps, muscular fatigue, hypotension, oliguria, tachycardia, and gastrointestinal disturbances such as nausea and vomiting. Insulin requirements in diabetic patients may be increased, decreased, or unchanged. Higher dosage of oral hypoglycemic agents may be required. Latent diabetes mellitus may become manifest during chlorthalidone administration. Chlorthalidone and related drugs may increase the responsiveness to tubocurarine. Chlorthalidone and related drugs may decrease arterial responsiveness to norepinephrine. This diminution is not sufficient to preclude effectiveness of the pressor agent for therapeutic use.",
+        "triples": [
+            {
+                "drug": "Chlorthalidone",
+                "target": "antihypertensive drugs",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "Chlorthalidone",
+                "target": "tubocurarine",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "Chlorthalidone",
+                "target": "norepinephrine",
+                "interaction": "effect",
+                "modify": false
+            }
+        ],
+        "pmid": "DDI-DrugBank.d265"
+    },
+    "DDI-DrugBank.d180": {
+        "abstract": "Digitalis toxicity may be aggravated by the initial release of norepinephrine caused by Bretylium Tosylate Injection. The pressor effects of catecholamines such as dopamine or norepinephrine are enhanced by Bretylium Tosylate. When catecholamines are administered, dilute solutions should be used and blood pressure should be monitored closely. Although there is little published information on concomitant administration of lidocaine and Bretylium Tosylate, these drugs are often administered concurrently without any evidence of interactions resulting in adverse effects or diminished efficacy.",
+        "triples": [
+            {
+                "drug": "Digitalis",
+                "target": "Bretylium Tosylate",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "catecholamines",
+                "target": "Bretylium Tosylate",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "dopamine",
+                "target": "Bretylium Tosylate",
+                "interaction": "effect",
+                "modify": false
+            },
+            {
+                "drug": "norepinephrine",
+                "target": "Bretylium Tosylate",
+                "interaction": "effect",
+                "modify": false
+            }
+        ],
+        "pmid": "DDI-DrugBank.d180"
+    }
+}
