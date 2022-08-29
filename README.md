@@ -1,9 +1,3 @@
-<p align="center">
-  <a href="https://github.com/renqianluo/BioGPT/blob/master/LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-blue.svg" /></a>
-</p>
-
---------------------------------------------------------------------------------
-
 # BioGPT
 This repository contains the implementation of [BioGPT: Generative Pre-trained Transformer for Biomedical Text Generation and Mining](), by Renqian Luo, Liai Sun, Yingce Xia, Tao Qin and Tie-Yan Liu.
 
@@ -45,12 +39,6 @@ pip install sklearn
 Remember to set the environment variables `MOSES` and `FASTBPE` to the path of Moses and fastBPE respetively, as they will be required later.
 
 # Getting Started
-## Data preparation
-You can download all the data we processed for downstream tasks [here](https://msralaphilly2.blob.core.windows.net/ml-la/release/BioGPT/data.tgz) and extract it to the root of this project, or you can process the data by yourself in the corresponding experiment.
-``` bash
-wget https://msralaphilly2.blob.core.windows.net/ml-la/release/BioGPT/data.tgz
-tar -zxvf data.tgz
-```
 ## Pre-trained models
 We provide our pre-trained BioGPT model checkpoint along with fine-tuned checkpoints for downstream tasks [here](https://msralaphilly2.blob.core.windows.net/ml-la/release/BioGPT/checkpoints.tgz). Download it and extract it the root of this project.
 ``` bash
@@ -124,3 +112,25 @@ See corresponding folder in [examples](examples):
 
 BioGPT is MIT-licensed.
 The license applies to the pre-trained models as well.
+
+# Contributing
+
+This project welcomes contributions and suggestions.  Most contributions require you to agree to a
+Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
+the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
+
+When you submit a pull request, a CLA bot will automatically determine whether you need to provide
+a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
+provided by the bot. You will only need to do this once across all repos using our CLA.
+
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
+For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
+contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+
+# Trademarks
+
+This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft 
+trademarks or logos is subject to and must follow 
+[Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
+Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
+Any use of third-party trademarks or logos are subject to those third-party's policies.

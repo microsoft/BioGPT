@@ -1,11 +1,14 @@
 # Relation Extraction on KD-DTI
 
 ## Data
-We assume you have downloaded all the data required and skip this step.
-Otherwise, you can process the data yourself:
+According to the original [KD-DTI dataset](https://github.com/bert-nmt/BERT-DTI), before processing the data, you should first register a DrugBank account, download the xml dataset and replace the entity id with the entity name in the drugbank.
+
+Then, you can process the data by:
 ``` bash
 bash preprocess.sh
 ```
+
+For more details, please see [here](https://github.com/bert-nmt/BERT-DTI).
 
 ## Training
 You can fine-tune the pre-trained BioGPT on the task by:

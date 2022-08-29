@@ -1,8 +1,7 @@
 # Document Classification on HoC
 
 ## Data
-We assume you have downloaded all the data required and skip this step.
-Otherwise, you can process the data yourself:
+You can process the data by:
 ``` bash
 bash preprocess.sh
 ```
