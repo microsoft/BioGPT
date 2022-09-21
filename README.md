@@ -1,5 +1,5 @@
 # BioGPT
-This repository contains the implementation of [BioGPT: Generative Pre-trained Transformer for Biomedical Text Generation and Mining](), by Renqian Luo, Liai Sun, Yingce Xia, Tao Qin and Tie-Yan Liu.
+This repository contains the implementation of [BioGPT: Generative Pre-trained Transformer for Biomedical Text Generation and Mining](), by Renqian Luo, Liai Sun, Yingce Xia, Tao Qin, Sheng Zhang, Hoifung Poon and Tie-Yan Liu.
 
 
 # Requirements and Installation
