@@ -40,11 +40,21 @@ Remember to set the environment variables `MOSES` and `FASTBPE` to the path of M
 
 # Getting Started
 ## Pre-trained models
-We provide our pre-trained BioGPT model checkpoint along with fine-tuned checkpoints for downstream tasks [here](https://msralaphilly2.blob.core.windows.net/ml-la/release/BioGPT/checkpoints.tgz). Download it and extract it the root of this project.
+We provide our pre-trained BioGPT model checkpoint along with fine-tuned checkpoints for downstream tasks [here](https://msralaphilly2.blob.core.windows.net/ml-la/release/BioGPT/checkpoints.tgz). Download it and extract it the root of this project. 
 ``` bash
 wget https://msralaphilly2.blob.core.windows.net/ml-la/release/BioGPT/checkpoints.tgz
 tar -zxvf checkpoints.tgz
 ```
+
+### Note: 
+If you encounter connection issue during downloading, it may be caused by the large model file size (22GB). We splitted the large files into pieces with each being 1GB. You can donwload them and use `cat` to concatenate them together: [part0](https://msralaphilly2.blob.core.windows.net/ml-la/release/BioGPT/checkpoints.tgz.00), [part1](https://msralaphilly2.blob.core.windows.net/ml-la/release/BioGPT/checkpoints.tgz.01), [part2](https://msralaphilly2.blob.core.windows.net/ml-la/release/BioGPT/checkpoints.tgz.02), [part3](https://msralaphilly2.blob.core.windows.net/ml-la/release/BioGPT/checkpoints.tgz.03), [part4](https://msralaphilly2.blob.core.windows.net/ml-la/release/BioGPT/checkpoints.tgz.04), [part5](https://msralaphilly2.blob.core.windows.net/ml-la/release/BioGPT/checkpoints.tgz.05), [part6](https://msralaphilly2.blob.core.windows.net/ml-la/release/BioGPT/checkpoints.tgz.06), [part7](https://msralaphilly2.blob.core.windows.net/ml-la/release/BioGPT/checkpoints.tgz.07), [part8](https://msralaphilly2.blob.core.windows.net/ml-la/release/BioGPT/checkpoints.tgz.08), [part9](https://msralaphilly2.blob.core.windows.net/ml-la/release/BioGPT/checkpoints.tgz.09), [part10](https://msralaphilly2.blob.core.windows.net/ml-la/release/BioGPT/checkpoints.tgz.10), [part11](https://msralaphilly2.blob.core.windows.net/ml-la/release/BioGPT/checkpoints.tgz.11), [part12](https://msralaphilly2.blob.core.windows.net/ml-la/release/BioGPT/checkpoints.tgz.12), [part13](https://msralaphilly2.blob.core.windows.net/ml-la/release/BioGPT/checkpoints.tgz.13), [part14](https://msralaphilly2.blob.core.windows.net/ml-la/release/BioGPT/checkpoints.tgz.14), [part15](https://msralaphilly2.blob.core.windows.net/ml-la/release/BioGPT/checkpoints.tgz.15), [part16](https://msralaphilly2.blob.core.windows.net/ml-la/release/BioGPT/checkpoints.tgz.16), [part17](https://msralaphilly2.blob.core.windows.net/ml-la/release/BioGPT/checkpoints.tgz.17), [part18](https://msralaphilly2.blob.core.windows.net/ml-la/release/BioGPT/checkpoints.tgz.18), [part19](https://msralaphilly2.blob.core.windows.net/ml-la/release/BioGPT/checkpoints.tgz.19), [part20](https://msralaphilly2.blob.core.windows.net/ml-la/release/BioGPT/checkpoints.tgz.20), [part21](https://msralaphilly2.blob.core.windows.net/ml-la/release/BioGPT/checkpoints.tgz.21)
+``` bash
+# download all the splitted files from above.
+for i in `seq 0 22`; do wget `printf "https://msralaphilly2.blob.core.windows.net/ml-la/release/BioGPT/checkpoints.tgz.%02d" $i`; done
+# cat them together and decompress
+cat checkpoints.tgz.* | tar -zxvf -
+```
+
 
 It contains following folders:
 
