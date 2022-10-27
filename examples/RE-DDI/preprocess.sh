@@ -1,3 +1,6 @@
+# Copyright (c) Microsoft Corporation.
+# Licensed under the MIT License.
+
 DATA_DIR=../../data/DDI
 prefix=relis
 RAW_DATA_DIR=${DATA_DIR}/raw

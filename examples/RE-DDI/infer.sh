@@ -1,3 +1,6 @@
+# Copyright (c) Microsoft Corporation.
+# Licensed under the MIT License.
+
 MODEL_DIR=../../checkpoints/RE-DDI-BioGPT
 MODEL=checkpoint_avg.pt
 DATA_DIR=../../data/DDI/relis-bin

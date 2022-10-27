@@ -1,3 +1,6 @@
+# Copyright (c) Microsoft Corporation.
+# Licensed under the MIT License.
+
 DATA_DIR=../../data/PubMedQA
 prefix=ansis
 RAW_DATA_DIR=${DATA_DIR}/raw

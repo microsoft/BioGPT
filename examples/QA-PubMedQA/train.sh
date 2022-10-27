@@ -1,3 +1,6 @@
+# Copyright (c) Microsoft Corporation.
+# Licensed under the MIT License.
+
 SAVE_DIR=../../checkpoints/QA-PubMedQA-BioGPT
 mkdir -p ${SAVE_DIR}
 

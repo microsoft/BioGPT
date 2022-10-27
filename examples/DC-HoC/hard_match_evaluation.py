@@ -1,4 +1,7 @@
 # coding: utf-8
+# Copyright (c) Microsoft Corporation.
+# Licensed under the MIT License.
+
 from ast import Global
 import os
 import sys

@@ -1,3 +1,6 @@
+# Copyright (c) Microsoft Corporation.
+# Licensed under the MIT License.
+
 DATA_DIR=../../data/BC5CDR
 prefix=relis
 RAW_DATA_DIR=${DATA_DIR}/raw

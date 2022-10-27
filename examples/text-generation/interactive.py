@@ -1,3 +1,6 @@
+# Copyright (c) Microsoft Corporation.
+# Licensed under the MIT License.
+
 import argparse
 from fairseq.models.transformer_lm import TransformerLanguageModel
 

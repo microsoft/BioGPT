@@ -1,3 +1,6 @@
+# Copyright (c) Microsoft Corporation.
+# Licensed under the MIT License.
+
 MODEL_DIR=../../checkpoints/DC-HoC-BioGPT
 MODEL=checkpoint_last.pt
 DATA_DIR=../../data/HoC/ansis-bin
