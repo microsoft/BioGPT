@@ -4,15 +4,17 @@ This repository contains the implementation of [BioGPT: Generative Pre-trained T
 
 # Requirements and Installation
 
-* [PyTorch](http://pytorch.org/) version >= 1.8.0
-* Python version >= 3.7
-* fairseq:
+* [PyTorch](http://pytorch.org/) version == 1.12.0
+* Python version == 3.10
+* fairseq version == 0.12.0:
 
 ``` bash
 git clone https://github.com/pytorch/fairseq
 cd fairseq
-git checkout dd7499
+git checkout v0.12.0
 pip install .
+python setup.py build_ext --inplace
+cd ..
 ```
 * Moses
 ``` bash
@@ -33,7 +35,7 @@ pip install sacremoses
 ```
 * sklearn
 ``` bash
-pip install sklearn
+pip install scikit-learn
 ```
 
 Remember to set the environment variables `MOSES` and `FASTBPE` to the path of Moses and fastBPE respetively, as they will be required later.
