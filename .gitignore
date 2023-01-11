@@ -118,8 +118,8 @@ data/*/*-bin
 data/*/raw/*.x
 data/*/raw/*.y
 data/*/raw/*.pmid
-data/*/raw/bpecodes
-data/*/raw/dict.txt
+data/*/raw/*bpecodes
+data/*/raw/*dict.txt
 
 # Checkpoints
 checkpoints/

@@ -25,7 +25,8 @@ from fairseq.dataclass.utils import convert_namespace_to_omegaconf
 from fairseq.models.transformer_lm import (
     TransformerLanguageModelConfig,
     TransformerLanguageModel, 
-    transformer_lm_gpt2_small
+    transformer_lm_gpt2_small,
+    transformer_lm_gpt2_big,
 )
 from omegaconf import II, DictConfig
 
@@ -80,3 +81,7 @@ class TransformerLanguageModelPrompt(TransformerLanguageModel):
 @register_model_architecture("transformer_lm_prompt", "transformer_lm_prompt_biogpt")
 def transformer_lm_prompt_biogpt(args):
     transformer_lm_gpt2_small(args)
+
+@register_model_architecture("transformer_lm_prompt", "transformer_lm_prompt_biogpt_large")
+def transformer_lm_prompt_gpt2_big(args):
+    transformer_lm_gpt2_big(args)

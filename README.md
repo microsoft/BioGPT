@@ -1,6 +1,8 @@
 # BioGPT
 This repository contains the implementation of [BioGPT: Generative Pre-trained Transformer for Biomedical Text Generation and Mining](https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbac409/6713511?guestAccessKey=a66d9b5d-4f83-4017-bb52-405815c907b9), by Renqian Luo, Liai Sun, Yingce Xia, Tao Qin, Sheng Zhang, Hoifung Poon and Tie-Yan Liu.
 
+# News!
+* BioGPT-Large model with 1.5B paramters is comming, currently available on PubMedQA task with SOTA perfromance of 81% accuracy. See [Question Answering on PubMedQA](examples/QA-PubMedQA/) for evaluation.
 
 # Requirements and Installation
 
@@ -42,30 +44,27 @@ Remember to set the environment variables `MOSES` and `FASTBPE` to the path of M
 
 # Getting Started
 ## Pre-trained models
-We provide our pre-trained BioGPT model checkpoint along with fine-tuned checkpoints for downstream tasks [here](https://msramllasc.blob.core.windows.net/modelrelease/BioGPT/checkpoints.tgz). Download it and extract it the root of this project. 
+We provide our pre-trained BioGPT model checkpoint along with fine-tuned checkpoints for downstream tasks 
+
+|Model|Description|URL|
+|----|----|---|
+|BioGPT|Pre-trained BioGPT model checkpoint|[link](https://msramllasc.blob.core.windows.net/modelrelease/BioGPT/checkpoints/Pre-trained-BioGPT.tgz)|
+|BioGPT-QA-PubMedQA-BioGPT|Fine-tuned BioGPT for question answering task on PubMedQA|[link](https://msramllasc.blob.core.windows.net/modelrelease/BioGPT/checkpoints/QA-PubMedQA-BioGPT/)|
+|BioGPT-QA-PubMEDQA-BioGPT-Large|Fine-tuned BioGPT-Large for question answering task on PubMedQA|[link](https://msramllasc.blob.core.windows.net/modelrelease/BioGPT/checkpoints/QA-PubMedQA-BioGPT-Large/)|
+|BioGPT-RE-BC5CDR|Fine-tuned BioGPT for relation extraction task on BC5CDR|[link](https://msramllasc.blob.core.windows.net/modelrelease/BioGPT/checkpoints/RE-BC5CDR-BioGPT/)|
+|BioGPT-RE-DDI|Fine-tuned BioGPT for relation extraction task on DDI|[link](https://msramllasc.blob.core.windows.net/modelrelease/BioGPT/checkpoints/RE-DDI-BioGPT/)|
+|BioGPT-RE-DTI|Fine-tuned BioGPT for relation extraction task on KD-DTI|[link](https://msramllasc.blob.core.windows.net/modelrelease/BioGPT/checkpoints/RE-DTI-BioGPT/)|
+|BioGPT-DC-HoC|Fine-tuned BioGPT for document classification task on HoC|[link](https://msramllasc.blob.core.windows.net/modelrelease/BioGPT/checkpoints/DC-HoC-BioGPT/)|
+
+Download them and extract them to the `checkpoints` folder of this project.
+
+For example:
 ``` bash
-wget https://msramllasc.blob.core.windows.net/modelrelease/BioGPT/checkpoints.tgz
-tar -zxvf checkpoints.tgz
+mkdir checkpoints
+cd checkpoints
+wget https://msramllasc.blob.core.windows.net/modelrelease/BioGPT/checkpoints/Pre-trained-BioGPT.tgz
+tar -zxvf Pre-trained-BioGPT.tgz
 ```
-
-### Note: 
-If you encounter connection issue during downloading, it may be caused by the large model file size (22GB). We splitted the large files into pieces with each being 1GB. You can donwload them and use `cat` to concatenate them together:
-``` bash
-# download all the splitted files from above.
-for i in `seq 0 21`; do wget `printf "https://msramllasc.blob.core.windows.net/modelrelease/BioGPT/checkpoints.tgz.%02d" $i`; done
-# cat them together and decompress
-cat checkpoints.tgz.* | tar -zxvf -
-```
-
-
-It contains following folders:
-
-* Pre-trained-BioGPT: The pre-trained BioGPT model checkpoint
-* RE-BC5CDR-BioGPT: The fine-tuned checkpoint for relation extraction task on BC5CDR
-* RE-DTI-BioGPT: The fine-tuned checkpoint for relation extraction task on KD-DTI
-* RE-DDI-BioGPT: The fine-tuned checkpoint for relation extraction task on DDI
-* DC-HoC-BioGPT: The fine-tuned checkpoint for document classification task on HoC
-* QA-PubMedQA-BioGPT: The fine-tuned checkpoint for question answering task on PubMedQA
 
 ## Example Usage
 Use pre-trained BioGPT model in your code:
