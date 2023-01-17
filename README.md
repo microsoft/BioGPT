@@ -107,6 +107,30 @@ generate = m.generate([src_tokens], beam=args.beam)[0]
 output = m.decode(generate[0]["tokens"])
 print(output)
 ```
+Use fine-tuned BioGPT-Large model on PubMedQA in your code:
+
+First run `examples/QA-PubMedQA/preprocess_large.sh`
+
+```python
+import torch
+from fairseq.models.transformer_lm import TransformerLanguageModel
+m = TransformerLanguageModel.from_pretrained(
+        "checkpoints/QA-PubMedQA-BioGPT-Large", 
+        "checkpoint_avg.pt", 
+        "data/PubMedQA/biogpt-large-ansis-bin",
+        tokenizer='moses', 
+        bpe='fastbpe', 
+        bpe_codes="data/biogpt_large_bpecodes",
+        min_len=100,
+        max_len_b=1024
+)
+m.cuda()
+src_text="" # input text, e.g., a PubMed abstract
+src_tokens = m.encode(src_text)
+generate = m.generate([src_tokens], beam=1)[0]
+output = m.decode(generate[0]["tokens"])
+print(output)
+```
 
 For more downstream tasks, please see below.
 

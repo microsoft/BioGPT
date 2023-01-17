@@ -78,10 +78,15 @@ class TransformerLanguageModelPrompt(TransformerLanguageModel):
         return super().load_state_dict(new_state_dict, strict)
 
 
+@register_model("transformer_lm_prompt_spt", dataclass=TransformerLanguageModelConfig)
+class TransformerLanguageModelPromptSPT(TransformerLanguageModelPrompt):
+    """BioGPT-Large and BioGPT have the same logic?"""
+
+
 @register_model_architecture("transformer_lm_prompt", "transformer_lm_prompt_biogpt")
 def transformer_lm_prompt_biogpt(args):
     transformer_lm_gpt2_small(args)
 
-@register_model_architecture("transformer_lm_prompt", "transformer_lm_prompt_biogpt_large")
+@register_model_architecture("transformer_lm_prompt_spt", "transformer_lm_prompt_biogpt_large")
 def transformer_lm_prompt_gpt2_big(args):
     transformer_lm_gpt2_big(args)
