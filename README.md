@@ -26,7 +26,6 @@ export MOSES=${PWD}/mosesdecoder
 ```
 * fastBPE
 ``` bash
-pip install fastBPE
 git clone https://github.com/glample/fastBPE.git
 export FASTBPE=${PWD}/fastBPE
 cd fastBPE
