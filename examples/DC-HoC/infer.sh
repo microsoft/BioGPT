@@ -3,7 +3,7 @@
 
 MODEL_DIR=../../checkpoints/DC-HoC-BioGPT
 MODEL=checkpoint_last.pt
-DATA_DIR=../../data/HoC/ansis-bin
+DATA_DIR=${PWD}/../../data/HoC/ansis-bin
 BASE_DATA_DIR=${DATA_DIR%/*}
 BIN_DATA_DIR=${DATA_DIR##*/}
 DATA_PREFIX=${BIN_DATA_DIR%-*}

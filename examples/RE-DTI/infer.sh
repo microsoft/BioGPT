@@ -3,7 +3,7 @@
 
 MODEL_DIR=../../checkpoints/RE-DTI-BioGPT
 MODEL=checkpoint_avg.pt
-DATA_DIR=../../data/KD-DTI/relis-bin
+DATA_DIR=${PWD}/../../data/KD-DTI/relis-bin
 BASE_DATA_DIR=${DATA_DIR%/*}
 BIN_DATA_DIR=${DATA_DIR##*/}
 DATA_PREFIX=${BIN_DATA_DIR%-*}

@@ -3,7 +3,7 @@
 
 MODEL_DIR=../../checkpoints/QA-PubMedQA-BioGPT-Large
 MODEL=checkpoint_avg.pt
-DATA_DIR=../../data/PubMedQA/biogpt-large-ansis-bin
+DATA_DIR=${PWD}/../../data/PubMedQA/biogpt-large-ansis-bin
 BASE_DATA_DIR=${DATA_DIR%/*}
 BIN_DATA_DIR=${DATA_DIR##*/}
 DATA_PREFIX=${BIN_DATA_DIR%-*}
