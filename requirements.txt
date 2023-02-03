@@ -1,2 +1,4 @@
 torch==1.12.0
 fairseq==0.12.2
+sacremoses
+scikit-learn
