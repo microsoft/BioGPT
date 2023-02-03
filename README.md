@@ -91,8 +91,8 @@ print(output)
 Use fine-tuned BioGPT model on KD-DTI for drug-target-interaction in your code:
 ```python
 import torch
-from fairseq.models.transformer_lm import TransformerLanguageModel
-m = TransformerLanguageModel.from_pretrained(
+from src.transformer_lm_prompt import TransformerLanguageModelPrompt
+m = TransformerLanguageModelPrompt.from_pretrained(
         "checkpoints/RE-DTI-BioGPT", 
         "checkpoint_avg.pt", 
         "data/KD-DTI/relis-bin",
