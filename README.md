@@ -2,7 +2,8 @@
 This repository contains the implementation of [BioGPT: Generative Pre-trained Transformer for Biomedical Text Generation and Mining](https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbac409/6713511?guestAccessKey=a66d9b5d-4f83-4017-bb52-405815c907b9), by Renqian Luo, Liai Sun, Yingce Xia, Tao Qin, Sheng Zhang, Hoifung Poon and Tie-Yan Liu.
 
 # News!
-* BioGPT-Large model with 1.5B paramters is comming, currently available on PubMedQA task with SOTA perfromance of 81% accuracy. See [Question Answering on PubMedQA](examples/QA-PubMedQA/) for evaluation.
+* BioGPT-Large model with 1.5B parameters is coming, currently available on PubMedQA task with SOTA performance of 81% accuracy. See [Question Answering on PubMedQA](examples/QA-PubMedQA/) for evaluation.
+
 
 # Requirements and Installation
 
