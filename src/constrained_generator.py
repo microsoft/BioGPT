@@ -282,7 +282,7 @@ class ConstrainedGenerator(nn.Module):
         finalized = torch.jit.annotate(
             List[List[Dict[str, Tensor]]],
             [torch.jit.annotate(List[Dict[str, Tensor]], []) for i in range(bsz)],
-        )  # contains lists of dictionaries of infomation about the hypothesis being finalized at each step
+        )  # contains lists of dictionaries of information about the hypothesis being finalized at each step
 
         # a boolean array indicating if the sentence at the index is finished or not
         finished = [False for i in range(bsz)]
