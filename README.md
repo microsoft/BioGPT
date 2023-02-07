@@ -120,6 +120,59 @@ See corresponding folder in [examples](examples):
 ### [Question Answering on PubMedQA](examples/QA-PubMedQA/)
 ### [Text Generation](examples/text-generation/)
 
+## Hugging Face 🤗 Usage
+
+BioGPT has also been integrated into the Hugging Face `transformers` library, and model checkpoints are available on the Hugging Face Hub.
+
+You can use this model directly with a pipeline for text generation. Since the generation relies on some randomness, we set a seed for reproducibility:
+
+```python
+from transformers import pipeline, set_seed
+from transformers import BioGptTokenizer, BioGptForCausalLM
+model = BioGptForCausalLM.from_pretrained("microsoft/biogpt")
+tokenizer = BioGptTokenizer.from_pretrained("microsoft/biogpt")
+generator = pipeline('text-generation', model=model, tokenizer=tokenizer)
+set_seed(42)
+generator("COVID-19 is", max_length=20, num_return_sequences=5, do_sample=True)
+```
+
+Here is how to use this model to get the features of a given text in PyTorch:
+
+```python
+from transformers import BioGptTokenizer, BioGptForCausalLM
+tokenizer = BioGptTokenizer.from_pretrained("microsoft/biogpt")
+model = BioGptForCausalLM.from_pretrained("microsoft/biogpt")
+text = "Replace me by any text you'd like."
+encoded_input = tokenizer(text, return_tensors='pt')
+output = model(**encoded_input)
+```
+
+Beam-search decoding:
+
+```python
+import torch
+from transformers import BioGptTokenizer, BioGptForCausalLM, set_seed
+
+tokenizer = BioGptTokenizer.from_pretrained("microsoft/biogpt")
+model = BioGptForCausalLM.from_pretrained("microsoft/biogpt")
+
+sentence = "COVID-19 is"
+inputs = tokenizer(sentence, return_tensors="pt")
+
+set_seed(42)
+
+with torch.no_grad():
+    beam_output = model.generate(**inputs,
+                                 min_length=100,
+                                 max_length=1024,
+                                 num_beams=5,
+                                 early_stopping=True
+                                )
+tokenizer.decode(beam_output[0], skip_special_tokens=True)
+```
+
+For more information, please see the [documentation](https://huggingface.co/docs/transformers/main/en/model_doc/biogpt) on the Hugging Face website.
+
 # License
 
 BioGPT is MIT-licensed.
