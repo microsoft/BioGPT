@@ -44,18 +44,18 @@ Remember to set the environment variables `MOSES` and `FASTBPE` to the path of M
 
 # Getting Started
 ## Pre-trained models
-We provide our pre-trained BioGPT model checkpoint along with fine-tuned checkpoints for downstream tasks 
+We provide our pre-trained BioGPT model checkpoints along with fine-tuned checkpoints for downstream tasks, available both through URL download as well as through the Hugging Face 🤗 Hub. 
 
-|Model|Description|URL|
-|----|----|---|
-|BioGPT|Pre-trained BioGPT model checkpoint|[link](https://msramllasc.blob.core.windows.net/modelrelease/BioGPT/checkpoints/Pre-trained-BioGPT.tgz)|
-|BioGPT-Large|Pre-trained BioGPT-Large model checkpoint|[link](https://msramllasc.blob.core.windows.net/modelrelease/BioGPT/checkpoints/Pre-trained-BioGPT-Large.tgz)|
-|BioGPT-QA-PubMedQA-BioGPT|Fine-tuned BioGPT for question answering task on PubMedQA|[link](https://msramllasc.blob.core.windows.net/modelrelease/BioGPT/checkpoints/QA-PubMedQA-BioGPT.tgz)|
-|BioGPT-QA-PubMEDQA-BioGPT-Large|Fine-tuned BioGPT-Large for question answering task on PubMedQA|[link](https://msramllasc.blob.core.windows.net/modelrelease/BioGPT/checkpoints/QA-PubMedQA-BioGPT-Large.tgz)|
-|BioGPT-RE-BC5CDR|Fine-tuned BioGPT for relation extraction task on BC5CDR|[link](https://msramllasc.blob.core.windows.net/modelrelease/BioGPT/checkpoints/RE-BC5CDR-BioGPT.tgz)|
-|BioGPT-RE-DDI|Fine-tuned BioGPT for relation extraction task on DDI|[link](https://msramllasc.blob.core.windows.net/modelrelease/BioGPT/checkpoints/RE-DDI-BioGPT.tgz)|
-|BioGPT-RE-DTI|Fine-tuned BioGPT for relation extraction task on KD-DTI|[link](https://msramllasc.blob.core.windows.net/modelrelease/BioGPT/checkpoints/RE-DTI-BioGPT.tgz)|
-|BioGPT-DC-HoC|Fine-tuned BioGPT for document classification task on HoC|[link](https://msramllasc.blob.core.windows.net/modelrelease/BioGPT/checkpoints/DC-HoC-BioGPT.tgz)|
+|Model|Description|URL|🤗 Hub|
+|----|----|---|---|
+|BioGPT|Pre-trained BioGPT model checkpoint|[link](https://msramllasc.blob.core.windows.net/modelrelease/BioGPT/checkpoints/Pre-trained-BioGPT.tgz)|[link](https://huggingface.co/microsoft/biogpt)|
+|BioGPT-Large|Pre-trained BioGPT-Large model checkpoint|[link](https://msramllasc.blob.core.windows.net/modelrelease/BioGPT/checkpoints/Pre-trained-BioGPT-Large.tgz)|[link](https://huggingface.co/microsoft/biogpt-large)|
+|BioGPT-QA-PubMedQA-BioGPT|Fine-tuned BioGPT for question answering task on PubMedQA|[link](https://msramllasc.blob.core.windows.net/modelrelease/BioGPT/checkpoints/QA-PubMedQA-BioGPT.tgz)| |
+|BioGPT-QA-PubMEDQA-BioGPT-Large|Fine-tuned BioGPT-Large for question answering task on PubMedQA|[link](https://msramllasc.blob.core.windows.net/modelrelease/BioGPT/checkpoints/QA-PubMedQA-BioGPT-Large.tgz)|[link](https://huggingface.co/microsoft/biogpt-large-pubmedqa)|
+|BioGPT-RE-BC5CDR|Fine-tuned BioGPT for relation extraction task on BC5CDR|[link](https://msramllasc.blob.core.windows.net/modelrelease/BioGPT/checkpoints/RE-BC5CDR-BioGPT.tgz)| |
+|BioGPT-RE-DDI|Fine-tuned BioGPT for relation extraction task on DDI|[link](https://msramllasc.blob.core.windows.net/modelrelease/BioGPT/checkpoints/RE-DDI-BioGPT.tgz)| |
+|BioGPT-RE-DTI|Fine-tuned BioGPT for relation extraction task on KD-DTI|[link](https://msramllasc.blob.core.windows.net/modelrelease/BioGPT/checkpoints/RE-DTI-BioGPT.tgz)| |
+|BioGPT-DC-HoC|Fine-tuned BioGPT for document classification task on HoC|[link](https://msramllasc.blob.core.windows.net/modelrelease/BioGPT/checkpoints/DC-HoC-BioGPT.tgz)| |
 
 Download them and extract them to the `checkpoints` folder of this project.
 
