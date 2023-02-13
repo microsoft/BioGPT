@@ -19,4 +19,4 @@ class RunBioGptApi(Resource):
         src_tokens = m.encode(question)
         generate = m.generate([src_tokens], beam=5)[0]
         answer = m.decode(generate[0]["tokens"])
-        return jsonify({"answer": answer})
+        return {"answer": answer}
