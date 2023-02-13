@@ -27,3 +27,10 @@ torch==1.12.0
 torchaudio==0.12.0
 tqdm==4.64.1
 typing-extensions==4.4.0
+
+
+# server requirements
+flask
+flask_session
+flask_cors
+flask_restful
