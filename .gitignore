@@ -123,3 +123,6 @@ data/*/raw/*dict.txt
 
 # Checkpoints
 checkpoints/
+
+# server
+server/server.log
