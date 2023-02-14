@@ -78,5 +78,6 @@ RUN wget https://msramllasc.blob.core.windows.net/modelrelease/BioGPT/checkpoint
 
 WORKDIR /app/BioGPT
 
-ENTRYPOINT [ "/bin/bash" ]
+COPY server server/
 
+ENTRYPOINT [ "python3", "-m" , "server/application"]
