@@ -1,5 +1,17 @@
 # BioGPT
-This repository contains the implementation of [BioGPT: Generative Pre-trained Transformer for Biomedical Text Generation and Mining](https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbac409/6713511?guestAccessKey=a66d9b5d-4f83-4017-bb52-405815c907b9), by Renqian Luo, Liai Sun, Yingce Xia, Tao Qin, Sheng Zhang, Hoifung Poon and Tie-Yan Liu.
+
+# What is BioGPT
+BioGPT is a generative language model that has been pre-trained on large amounts of biomedical literature. It is a domain-specific variant of the GPT family of language models and is designed to generate fluent descriptions for biomedical terms. It has been shown to outperform previous models on a range of biomedical natural language processing tasks, including relation extraction and question-answering, making it a promising tool for biomedical researchers and practitioners.
+
+# Implementation policy
+This repository contains the implementation of [BioGPT: Generative Pre-trained Transformer for Biomedical Text Generation and Mining](https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbac409/6713511?guestAccessKey=a66d9b5d-4f83-4017-bb52-405815c907b9), written by:
+* Renqian Luo 
+* Liai Sun
+* Yingce Xia 
+* Tao Qin 
+* Sheng Zhang 
+* Hoifung Poon 
+* Tie-Yan Liu.
 
 # News!
 * BioGPT-Large model with 1.5B parameters is coming, currently available on PubMedQA task with SOTA performance of 81% accuracy. See [Question Answering on PubMedQA](examples/QA-PubMedQA/) for evaluation.
