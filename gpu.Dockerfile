@@ -93,4 +93,4 @@ RUN export MOSES=${PWD}/mosesdecoder &&\
 
 COPY server server/
 
-ENTRYPOINT [ "python3", "-m" , "server/application"]
+ENTRYPOINT [ "python3", "-m" , "application"]
