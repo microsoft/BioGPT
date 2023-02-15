@@ -14,8 +14,8 @@ jobs:
     - name: Check out code
       uses: actions/checkout@v2
     - name: Read VERSION file
-        id: getversion
-        run: echo "version=$(cat VERSION)" >> $GITHUB_STATE
+      id: getversion
+      run: echo "version=$(cat VERSION)" >> $GITHUB_STATE
     - name: Create tag
       uses: actions/github-script@v5
       with:
