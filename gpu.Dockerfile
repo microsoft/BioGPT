@@ -30,9 +30,10 @@ WORKDIR /app/BioGPT
 RUN pip install -r requirements.txt
 RUN conda install -y pytorch==1.12.0 torchvision==0.13.0 torchaudio==0.12.0 cudatoolkit=11.6 -c pytorch -c conda-forge
 
-COPY BioGPT/biogpt_trial_inference.py /app/BioGPT/
-
 #Install models
+WORKDIR /app/BioGPT
+COPY server .
+COPY data .
 RUN mkdir -p checkpoints/
 WORKDIR /app/BioGPT/checkpoints
 
@@ -78,6 +79,4 @@ RUN wget https://msramllasc.blob.core.windows.net/modelrelease/BioGPT/checkpoint
 
 WORKDIR /app/BioGPT
 
-COPY server server/
-
-ENTRYPOINT [ "python3", "-m" , "server/application"]
+ENTRYPOINT [ "python3", "-m" , "application"]
