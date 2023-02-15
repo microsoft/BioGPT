@@ -7,6 +7,7 @@ from server.resources.pre_trained_biogpt import Models
 
 
 class RunBioGptApi(Resource):
+
     def post(self):
         question = request.json.get('question')
         m = Models().trained_biogpt
