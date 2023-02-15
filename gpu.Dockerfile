@@ -21,14 +21,15 @@ RUN git clone https://github.com/glample/fastBPE.git
 RUN export FASTBPE=${PWD}/fastBPE
 WORKDIR fastBPE/
 RUN g++ -std=c++11 -pthread -O3 fastBPE/main.cc -IfastBPE -o fast
-#pip installation for NOT FOUND fastBPE error
-RUN pip install fastBPE
 
 WORKDIR /app/BioGPT
 
 #Install requirements and upgrade cudatoolkit
 RUN pip install -r requirements.txt
 RUN conda install -y pytorch==1.12.0 torchvision==0.13.0 torchaudio==0.12.0 cudatoolkit=11.6 -c pytorch -c conda-forge
+
+#pip installation for NOT FOUND fastBPE error
+RUN pip install fastBPE
 
 #Install models
 WORKDIR /app/BioGPT
