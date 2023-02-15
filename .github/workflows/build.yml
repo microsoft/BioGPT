@@ -2,7 +2,9 @@ name: Deploy to ECR
 
 on:
   push:
-    branches: [ release ]
+    branches: [ main ]
+    paths:
+      - 'VERSION'
 
 jobs:
   build:
@@ -17,6 +19,19 @@ jobs:
         aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: us-west-2
+    - name: Read VERSION file
+        id: getversion
+        run: echo "{version}=$(cat VERSION)" >> $GITHUB_STATE
+    - name: Create tag
+        uses: actions/github-script@v5
+        with:
+          script: |
+            github.rest.git.createRef({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              ref: 'refs/tags/${{ steps.getversion.version }}',
+              sha: context.sha
+            })
     - name: Login to Amazon ECR
       id: login-ecr
       uses: aws-actions/amazon-ecr-login@v1
@@ -24,7 +39,7 @@ jobs:
       env:
         ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
         ECR_REPOSITORY: biogpt_server
-        IMAGE_TAG: biogpt-0
-      run: |
-        docker build -f gpu.Dockerfile -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
-        docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
+        IMAGE_TAG: biogpt-${{ steps.login-ecr.outputs.registry }}
+#      run: |
+#        docker build -f gpu.Dockerfile -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
+#        docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
