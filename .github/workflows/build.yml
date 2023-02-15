@@ -15,7 +15,7 @@ jobs:
       uses: actions/checkout@v2
     - name: Read VERSION file
       id: getversion
-      run: echo "version=$(cat VERSION)" >> $GITHUB_STATE
+      run: echo "version=$(cat VERSION)" >> $GITHUB_OUTPUT
     - name: Create tag
       uses: actions/github-script@v5
       with:
@@ -23,7 +23,7 @@ jobs:
           github.rest.git.createRef({
             owner: context.repo.owner,
             repo: context.repo.repo,
-            ref: 'refs/tags/${{ steps.login-ecr.outputs.version }}',
+            ref: 'refs/tags/${{ steps.getversion.outputs.version }}',
             sha: context.sha
           })
     - name: Configure AWS credentials
