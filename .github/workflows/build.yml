@@ -39,7 +39,7 @@ jobs:
       env:
         ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
         ECR_REPOSITORY: biogpt_server
-        IMAGE_TAG: biogpt-${{ steps.login-ecr.outputs.registry }}
+        IMAGE_TAG: biogpt-server-${{ steps.getversion.outputs.version }}
       run: |
         docker build -f gpu.Dockerfile -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
         docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
