@@ -7,7 +7,7 @@ src_text = "question: Is cytokeratin immunoreactivity useful in the diagnosis of
 m = TransformerLanguageModelPrompt.from_pretrained(
         "checkpoints/QA-PubMedQA-BioGPT",
         "checkpoint_avg.pt",
-        "data/HoC/ansis-bin",
+        "data/PubMedQA/ansis-bin",
         tokenizer='moses',
         bpe='fastbpe',
         bpe_codes="data/bpecodes",

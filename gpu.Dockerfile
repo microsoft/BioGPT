@@ -79,4 +79,16 @@ RUN wget https://msramllasc.blob.core.windows.net/modelrelease/BioGPT/checkpoint
 
 WORKDIR /app/BioGPT
 
+#Run preprocess for all models
+RUN export MOSES=${PWD}/mosesdecoder &&\
+    export FASTBPE=${PWD}/fastBPE &&\ 
+    for folder in DC-HoC QA-PubMedQA RE-BC5CDR RE-DDI RE-DTI; \
+    do \
+        cd /app/BioGPT/examples/$folder && bash preprocess.sh && cd ../../; \
+    done &&\
+    cp data/biogpt_large_bpecodes data/biogpt_large_dict.txt data/PubMedQA/raw/ &&\
+    cd /app/BioGPT/examples/QA-PubMedQA &&\
+    bash preprocess_large.sh &&\
+    cd ../../
+
 ENTRYPOINT [ "python3", "-m" , "application"]
