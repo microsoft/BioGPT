@@ -29,7 +29,7 @@ jobs:
           github.rest.git.createRef({
             owner: context.repo.owner,
             repo: context.repo.repo,
-            ref: 'refs/tags/${{ steps.getversion.version }}',
+            ref: 'refs/tags/$GITHUB_STATE.version',
             sha: context.sha
           })
     - name: Login to Amazon ECR
