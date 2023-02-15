@@ -91,6 +91,4 @@ RUN export MOSES=${PWD}/mosesdecoder &&\
     bash preprocess_large.sh &&\
     cd ../../
 
-COPY server server/
-
 ENTRYPOINT [ "python3", "-m" , "application"]
