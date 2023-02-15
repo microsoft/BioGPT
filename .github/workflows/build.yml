@@ -2,7 +2,7 @@ name: Deploy to ECR
 
 on:
   push:
-    branches: [ main ]
+    branches: [ release ]
 
 jobs:
   build:
