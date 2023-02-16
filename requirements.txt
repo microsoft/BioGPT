@@ -33,3 +33,4 @@ flask
 flask_session
 flask_cors
 flask_restful
+flask_bcrypt

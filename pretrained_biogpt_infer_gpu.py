@@ -3,7 +3,7 @@ from fairseq.models.transformer_lm import TransformerLanguageModel
 
 
 m = TransformerLanguageModel.from_pretrained(
-        "checkpoints/Pre-trained-BioGPT",
+    "checkpoints/Pre-trained-BioGPT",
         "checkpoint.pt",
         "data",
         tokenizer='moses',
@@ -12,7 +12,7 @@ m = TransformerLanguageModel.from_pretrained(
         min_len=100,
         max_len_b=1024)
 
-#m.cuda()
+m.cuda()
 
 src_tokens = m.encode("COVID-19 is")
 generate = m.generate([src_tokens], beam=5)[0]

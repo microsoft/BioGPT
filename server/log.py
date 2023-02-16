@@ -5,13 +5,17 @@ from logging.handlers import RotatingFileHandler
 
 
 def set_logging(application):
+    file = 'server.log'
     formatter = logging.Formatter(
             "%(asctime)s  [%(levelname)s]\n%(message)s",
             "%Y-%m-%d %H:%M:%S"
     )
 
+    # Create log file if doesn't exist
+    open(file, 'w+').close()
+
     flask_handler = RotatingFileHandler(
-        'server.log',
+        file,
         maxBytes=1000000,
         backupCount=5
     )

@@ -126,3 +126,4 @@ checkpoints/
 
 # server
 server/server.log
+venv
