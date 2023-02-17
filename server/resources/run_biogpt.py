@@ -32,8 +32,12 @@ class RunBioGptApi(Resource):
         config = Config()
         if not config.local_depployment:
             m.cuda()
+        if model_name == "pretrained_biogpt_large" and not config.local_depployment:
+            m.half()
+
         src_tokens = m.encode(question)
         generate = m.generate([src_tokens], beam=beam)[0]
         answer = m.decode(generate[0]["tokens"])
+
         cleaned_answer = model.clean_output(answer)
         return {"answer": cleaned_answer}

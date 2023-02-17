@@ -9,6 +9,7 @@ class DefaultModel:
     def clean_output(cls, output):
         return output.split("learned9")[-1]
 
+
 @singleton
 class PretrainedBioGPT(DefaultModel):
     def __init__(self):
@@ -31,8 +32,15 @@ class PretrainedBioGPT(DefaultModel):
 @singleton
 class PretrainedBioGPTLarge(DefaultModel):
     def __init__(self):
-        # TODO add this
-        self.m = ()
+        self.m = TransformerLanguageModel.from_pretrained(
+            "checkpoints/Pre-trained-BioGPT-Large",
+            "checkpoint.pt",
+            "data/BioGPT-Large",  # change this for smaller model
+            tokenizer='moses',
+            bpe='fastbpe',
+            bpe_codes="data/BioGPT-Large/bpecodes",
+            min_len=100
+        )
 
     @classmethod
     def clean_output(cls, output):
