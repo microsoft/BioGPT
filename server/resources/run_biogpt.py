@@ -5,14 +5,14 @@ from server.config import Config
 from server.resources.models import *
 
 MODEL_CONFIGS = {
-    # "ddi": DDI(),
-    # "dti": DTI(),
-    # "bc5cdr": BC5CDR(),
-    # "document_classification": DocumentClassification(),
-    # "pubmed": Pubmed(),
-    # "pubmed_large": PubmedLarge(),
-    "pretrained_biogpt": PretrainedBioGPT(),
-    # "pretrained_biogpt_large": PretrainedBioGPTLarge()
+    "ddi": DDI,
+    "dti": DTI,
+    "bc5cdr": BC5CDR,
+    "document_classification": DocumentClassification,
+    "pubmed": Pubmed,
+    "pubmed_large": PubmedLarge,
+    "pretrained_biogpt": PretrainedBioGPT,
+    "pretrained_biogpt_large": PretrainedBioGPTLarge
 }
 
 
@@ -26,7 +26,7 @@ class RunBioGptApi(Resource):
             beam = 5
         else:
             beam = int(beam)
-        model = MODEL_CONFIGS[model_name]
+        model = MODEL_CONFIGS[model_name]()
         m = model.m
 
         config = Config()

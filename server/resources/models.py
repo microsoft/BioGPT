@@ -10,7 +10,6 @@ class DefaultModel:
         return output.split("learned9")[-1]
 
 
-@singleton
 class PretrainedBioGPT(DefaultModel):
     def __init__(self):
         self.m = TransformerLanguageModel.from_pretrained(
@@ -29,7 +28,6 @@ class PretrainedBioGPT(DefaultModel):
         return output
 
 
-@singleton
 class PretrainedBioGPTLarge(DefaultModel):
     def __init__(self):
         self.m = TransformerLanguageModel.from_pretrained(
@@ -47,7 +45,6 @@ class PretrainedBioGPTLarge(DefaultModel):
         return output
 
 
-@singleton
 class Pubmed(DefaultModel):
     def __init__(self):
         self.m = TransformerLanguageModelPrompt.from_pretrained(
@@ -58,11 +55,10 @@ class Pubmed(DefaultModel):
             bpe='fastbpe',
             bpe_codes="data/bpecodes",
             min_len=100,
-            max_len_b=1024
+            #max_len_b=1024
         )
 
 
-@singleton
 class PubmedLarge(DefaultModel):
     def __init__(self):
         self.m = TransformerLanguageModelPrompt.from_pretrained(
@@ -93,7 +89,6 @@ class DTI(DefaultModel):
         )
 
 
-@singleton
 class DDI(DefaultModel):
     def __init__(self):
         self.m = TransformerLanguageModelPrompt.from_pretrained(
@@ -108,7 +103,6 @@ class DDI(DefaultModel):
         )
 
 
-@singleton
 class BC5CDR(DefaultModel):
     def __init__(self):
         self.m = TransformerLanguageModelPrompt.from_pretrained(
@@ -123,7 +117,6 @@ class BC5CDR(DefaultModel):
         )
 
 
-@singleton
 class DocumentClassification(DefaultModel):
     def __init__(self):
         self.m = TransformerLanguageModelPrompt.from_pretrained(

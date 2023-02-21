@@ -17,15 +17,5 @@ init_routes(API)
 set_logging(application)
 
 if __name__ == "__main__":
-    # pre-load all models and config to speed up the request calculation time
-    # _ = DDI(),
-    # _ = DTI(),
-    # _ = BC5CDR(),
-    # _ = DocumentClassification(),
-    # _ = Pubmed(),
-    # _ =  PubmedLarge(),
-    _ = PretrainedBioGPT(),
-    # _ = PretrainedBioGPTLarge()
-
     _ = Config()
     application.run(host='0.0.0.0', port=8001)
