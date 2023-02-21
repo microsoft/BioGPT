@@ -54,8 +54,8 @@ class Pubmed(DefaultModel):
             tokenizer='moses',
             bpe='fastbpe',
             bpe_codes="data/bpecodes",
-            min_len=100,
-            #max_len_b=1024
+            max_len_b=1024,
+            beam=1
         )
 
 
@@ -68,7 +68,6 @@ class PubmedLarge(DefaultModel):
             tokenizer='moses',
             bpe='fastbpe',
             bpe_codes="data/BioGPT-Large/bpecodes",
-            min_len=100,
             max_len_b=1024,
             beam=1
         )
@@ -126,8 +125,8 @@ class DocumentClassification(DefaultModel):
             tokenizer='moses',
             bpe='fastbpe',
             bpe_codes="data/bpecodes",
-            min_len=100,
-            max_len_b=1024
+            max_len_b=1024,
+            beam=1
         )
 
     @classmethod
