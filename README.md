@@ -1,9 +1,6 @@
 # BioGPT
 This repository contains the implementation of [BioGPT: Generative Pre-trained Transformer for Biomedical Text Generation and Mining](https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbac409/6713511?guestAccessKey=a66d9b5d-4f83-4017-bb52-405815c907b9), by Renqian Luo, Liai Sun, Yingce Xia, Tao Qin, Sheng Zhang, Hoifung Poon and Tie-Yan Liu.
 
-# News!
-* BioGPT-Large model with 1.5B parameters is coming, currently available on PubMedQA task with SOTA performance of 81% accuracy. See [Question Answering on PubMedQA](examples/QA-PubMedQA/) for evaluation.
-
 
 # Requirements and Installation
 
@@ -50,8 +47,10 @@ We provide our pre-trained BioGPT model checkpoints along with fine-tuned checkp
 |----|----|---|---|
 |BioGPT|Pre-trained BioGPT model checkpoint|[link](https://msramllasc.blob.core.windows.net/modelrelease/BioGPT/checkpoints/Pre-trained-BioGPT.tgz)|[link](https://huggingface.co/microsoft/biogpt)|
 |BioGPT-Large|Pre-trained BioGPT-Large model checkpoint|[link](https://msramllasc.blob.core.windows.net/modelrelease/BioGPT/checkpoints/Pre-trained-BioGPT-Large.tgz)|[link](https://huggingface.co/microsoft/biogpt-large)|
-|BioGPT-QA-PubMedQA-BioGPT|Fine-tuned BioGPT for question answering task on PubMedQA|[link](https://msramllasc.blob.core.windows.net/modelrelease/BioGPT/checkpoints/QA-PubMedQA-BioGPT.tgz)| |
-|BioGPT-QA-PubMEDQA-BioGPT-Large|Fine-tuned BioGPT-Large for question answering task on PubMedQA|[link](https://msramllasc.blob.core.windows.net/modelrelease/BioGPT/checkpoints/QA-PubMedQA-BioGPT-Large.tgz)|[link](https://huggingface.co/microsoft/biogpt-large-pubmedqa)|
+|BioGPT-QA-PubMedQA-BioGPT-ResoningFree|Fine-tuned BioGPT for question answering task on PubMedQA reasoning free setting|[link](https://msralaphilly2.blob.core.windows.net/release/BioGPT/checkpoints/QA-PubMedQA-BioGPT-ReasoningFree.tgz)| |
+|BioGPT-QA-PubMedQA-BioGPT-ResoningRequired|Fine-tuned BioGPT for question answering task on PubMedQA reasoning required setting|[link](https://msralaphilly2.blob.core.windows.net/release/BioGPT/checkpoints/QA-PubMedQA-BioGPT-ReasoningRequired.tgz)| |
+|BioGPT-QA-PubMEDQA-BioGPT-Large-ReasoningFree|Fine-tuned BioGPT-Large for question answering task on PubMedQA reasoning free setting|[link](https://msralaphilly2.blob.core.windows.net/release/BioGPT/checkpoints/QA-PubMedQA-BioGPT-Large-ReasoningFree.tgz)|[link](https://huggingface.co/microsoft/biogpt-large-pubmedqa)|
+|BioGPT-QA-PubMEDQA-BioGPT-Large-ReasoningRequired|Fine-tuned BioGPT-Large for question answering task on PubMedQA reasoning required setting|TBD||
 |BioGPT-RE-BC5CDR|Fine-tuned BioGPT for relation extraction task on BC5CDR|[link](https://msramllasc.blob.core.windows.net/modelrelease/BioGPT/checkpoints/RE-BC5CDR-BioGPT.tgz)| |
 |BioGPT-RE-DDI|Fine-tuned BioGPT for relation extraction task on DDI|[link](https://msramllasc.blob.core.windows.net/modelrelease/BioGPT/checkpoints/RE-DDI-BioGPT.tgz)| |
 |BioGPT-RE-DTI|Fine-tuned BioGPT for relation extraction task on KD-DTI|[link](https://msramllasc.blob.core.windows.net/modelrelease/BioGPT/checkpoints/RE-DTI-BioGPT.tgz)| |

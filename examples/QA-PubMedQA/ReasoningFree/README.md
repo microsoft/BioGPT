@@ -1,6 +1,8 @@
-# Question Answering on PubMedQA
+# Question Answering on PubMedQA in Reasoning Free Setting
 
 ## Data
+Download data from https://github.com/pubmedqa/pubmedqa
+Following the steps of splitting data 
 You can process the data by:
 ``` bash
 bash preprocess.sh # for BioGPT
@@ -21,7 +23,7 @@ bash train_large.sh # for BioGPT-Large
 ```
 
 ## Model Checkpoint
-We provide our fine-tuned model on the task. See [here](../../README.md#pre-trained-models)
+We provide our fine-tuned model on the task. See [here](../../../README.md#pre-trained-models)
 
 ## Inference and Evaluating
 You can inference and evaluate the model on the test set by:

@@ -1,13 +1,13 @@
 # Copyright (c) Microsoft Corporation.
 # Licensed under the MIT License.
 
-SAVE_DIR=../../checkpoints/QA-PubMedQA-BioGPT
+SAVE_DIR=../../../checkpoints/QA-PubMedQA-BioGPT-ReasoningFree
 mkdir -p ${SAVE_DIR}
 
 fairseq-train \
-    ../../data/PubMedQA/ansis-bin --save-dir ${SAVE_DIR} \
+    ../../../data/PubMedQA/pqal_qcal_ansis-bin --save-dir ${SAVE_DIR} \
     --user-dir ../../src \
-    --finetune-from-model ../../checkpoints/Pre-trained-BioGPT/checkpoint.pt \
+    --finetune-from-model ../../../checkpoints/Pre-trained-BioGPT/checkpoint.pt \
     --task language_modeling_prompt \
     --arch transformer_lm_prompt_biogpt \
     --share-decoder-input-output-embed --decoder-learned-pos \
