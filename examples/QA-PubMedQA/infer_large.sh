@@ -1,9 +1,9 @@
 # Copyright (c) Microsoft Corporation.
 # Licensed under the MIT License.
 
-MODEL_DIR=../../../checkpoints/QA-PubMedQA-BioGPT-ReasoningFree
-MODEL=checkpoint_avg.pt
-DATA_DIR=${PWD}/../../../data/PubMedQA/pqal_qcal_ansis-bin
+MODEL_DIR=../../checkpoints/QA-PubMedQA-BioGPT-Large
+MODEL=checkpoint.pt
+DATA_DIR=${PWD}/../../data/PubMedQA/biogpt-large-pqal_qcl_ansis-bin
 BASE_DATA_DIR=${DATA_DIR%/*}
 BIN_DATA_DIR=${DATA_DIR##*/}
 DATA_PREFIX=${BIN_DATA_DIR%-*}
@@ -12,17 +12,12 @@ OUTPUT_FILE=generate_${MODEL}
 
 INPUT_FILE=${RAW_DATA_DIR}/${DATA_PREFIX}_test.tok.bpe.x
 OUTPUT_FILE=${MODEL_DIR}/${OUTPUT_FILE}
-GOLD_FILE=${RAW_DATA_DIR}/test.tsv
-
-# average checkpoints
-if [ ! -f "${MODEL_DIR}/${MODEL}" ]; then
-    python ../../../scripts/average_checkpoints.py --inputs=${MODEL_DIR} --output=${MODEL_DIR}/${MODEL} --num-epoch-checkpoints=5
-fi
+GOLD_FILE=${RAW_DATA_DIR}/test_ground_truth.json
 
 # inference
 if [ ! -f "$OUTPUT_FILE" ]; then
     echo "Begin inferencing ${INPUT_FILE} using ${MODEL_DIR}/${MODEL}"
-    python ../../../inference.py --data_dir=${DATA_DIR} --model_dir=${MODEL_DIR} --model_file=${MODEL} --src_file=${INPUT_FILE} --output_file=${OUTPUT_FILE}
+    python ../../inference.py --data_dir=${DATA_DIR} --model_dir=${MODEL_DIR} --model_file=${MODEL} --src_file=${INPUT_FILE} --output_file=${OUTPUT_FILE}
 fi
 
 # debpe

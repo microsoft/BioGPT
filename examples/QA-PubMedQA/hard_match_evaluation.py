@@ -3,6 +3,7 @@
 
 import os
 import sys
+import json
 from sklearn.metrics import accuracy_score
 
 pred_file = sys.argv[1]
@@ -21,12 +22,16 @@ def main():
             preds.append(line.strip())
 
     golden = []
-    with open(gold_file) as reader:
-        for line in reader:
-            line = line.strip()
-            if line != '' and len(line) > 0:
-                golden.append(line.strip().split('\t')[-1])
-
+    if gold_file.endswith('.tsv'):
+        with open(gold_file) as reader:
+            for line in reader:
+                line = line.strip()
+                if line != '' and len(line) > 0:
+                    golden.append(line.strip().split('\t')[-1])
+    elif gold_file.endswith('.json'):
+        with open(gold_file) as reader:
+            data = json.load(reader)
+            golden = [label for pmid, label in data.items()]
     assert len(preds) == len(golden), f"{len(preds)} {len(golden)}"
 
     print("\n====File: ", os.path.basename(pred_file))
