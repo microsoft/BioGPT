@@ -77,6 +77,6 @@ def worker(fname, prefix, fn):
     dumper(ret, prefix)
 
 
-worker(os.path.join(f"{data_dir}", "pqal_train_set.json"), os.path.join(f"{data_dir}", f"{prefix}_train"), build_target_seq)
-worker(os.path.join(f"{data_dir}", "pqal_dev_set.json"), os.path.join(f"{data_dir}", f"{prefix}_valid"), build_target_seq)
-worker(os.path.join(f"{data_dir}", "pqal_test_set.json"), os.path.join(f"{data_dir}", f"{prefix}_test"), build_target_seq)
+worker(os.path.join(f"{data_dir}", "train_set.json"), os.path.join(f"{data_dir}", f"{prefix}_train"), build_target_seq)
+worker(os.path.join(f"{data_dir}", "dev_set.json"), os.path.join(f"{data_dir}", f"{prefix}_valid"), build_target_seq)
+worker(os.path.join(f"{data_dir}", "test_set.json"), os.path.join(f"{data_dir}", f"{prefix}_test"), build_target_seq)
