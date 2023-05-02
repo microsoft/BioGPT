@@ -1,6 +1,9 @@
 # BioGPT
 This repository contains the implementation of [BioGPT: Generative Pre-trained Transformer for Biomedical Text Generation and Mining](https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbac409/6713511?guestAccessKey=a66d9b5d-4f83-4017-bb52-405815c907b9), by Renqian Luo, Liai Sun, Yingce Xia, Tao Qin, Sheng Zhang, Hoifung Poon and Tie-Yan Liu.
 
+# Run BioGPT on Google Cloud Platform using Pulumi
+
+*To run BioGPT on Google Cloud Platform using Pulumi follow the instructions [here](./tree/main/infra/).*
 
 # Requirements and Installation
 
