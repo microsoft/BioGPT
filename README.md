@@ -3,7 +3,7 @@ This repository contains the implementation of [BioGPT: Generative Pre-trained T
 
 # Run BioGPT on Google Cloud Platform using Pulumi
 
-*To run BioGPT on Google Cloud Platform using Pulumi follow the instructions [here](tree/main/infra/).*
+*To run BioGPT on Google Cloud Platform using Pulumi follow the instructions [here](https://github.com/calufa/BioGPT-Kubernetes-Pulumi-GCP/tree/main/infra).*
 
 
 # Requirements and Installation
