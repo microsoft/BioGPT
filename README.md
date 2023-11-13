@@ -45,14 +45,14 @@ We provide our pre-trained BioGPT model checkpoints along with fine-tuned checkp
 
 |Model|Description|URL|🤗 Hub|
 |----|----|---|---|
-|BioGPT|Pre-trained BioGPT model checkpoint|[link](https://msramllasc.blob.core.windows.net/modelrelease/BioGPT/checkpoints/Pre-trained-BioGPT.tgz)|[link](https://huggingface.co/microsoft/biogpt)|
-|BioGPT-Large|Pre-trained BioGPT-Large model checkpoint|[link](https://msramllasc.blob.core.windows.net/modelrelease/BioGPT/checkpoints/Pre-trained-BioGPT-Large.tgz)|[link](https://huggingface.co/microsoft/biogpt-large)|
-|BioGPT-QA-PubMedQA-BioGPT|Fine-tuned BioGPT for question answering task on PubMedQA|[link](https://msralaphilly2.blob.core.windows.net/release/BioGPT/checkpoints/QA-PubMedQA-BioGPT.tgz)| |
-|BioGPT-QA-PubMedQA-BioGPT-Large|Fine-tuned BioGPT-Large for question answering task on PubMedQA|[link](https://msralaphilly2.blob.core.windows.net/release/BioGPT/checkpoints/QA-PubMedQA-BioGPT-Large.tgz)||
-|BioGPT-RE-BC5CDR|Fine-tuned BioGPT for relation extraction task on BC5CDR|[link](https://msramllasc.blob.core.windows.net/modelrelease/BioGPT/checkpoints/RE-BC5CDR-BioGPT.tgz)| |
-|BioGPT-RE-DDI|Fine-tuned BioGPT for relation extraction task on DDI|[link](https://msramllasc.blob.core.windows.net/modelrelease/BioGPT/checkpoints/RE-DDI-BioGPT.tgz)| |
-|BioGPT-RE-DTI|Fine-tuned BioGPT for relation extraction task on KD-DTI|[link](https://msramllasc.blob.core.windows.net/modelrelease/BioGPT/checkpoints/RE-DTI-BioGPT.tgz)| |
-|BioGPT-DC-HoC|Fine-tuned BioGPT for document classification task on HoC|[link](https://msramllasc.blob.core.windows.net/modelrelease/BioGPT/checkpoints/DC-HoC-BioGPT.tgz)| |
+|BioGPT|Pre-trained BioGPT model checkpoint|[link](https://msralaphilly2.blob.core.windows.net/release/BioGPT/checkpoints/Pre-trained-BioGPT.tgz?sp=r&st=2023-11-13T15:37:35Z&se=2099-12-30T23:37:35Z&spr=https&sv=2022-11-02&sr=b&sig=3CcG1TOhqJPBhkVutvVn3PtUq0vPyLBgwggUfojypfY%3D)|[link](https://huggingface.co/microsoft/biogpt)|
+|BioGPT-Large|Pre-trained BioGPT-Large model checkpoint|[link](https://msralaphilly2.blob.core.windows.net/release/BioGPT/checkpoints/Pre-trained-BioGPT-Large.tgz?sp=r&st=2023-11-13T15:38:13Z&se=2099-12-30T23:38:13Z&spr=https&sv=2022-11-02&sr=b&sig=ib1SZut9wAwrsxGWtFtIZDhrnRg92dwPJmoY2lr3MTg%3D)|[link](https://huggingface.co/microsoft/biogpt-large)|
+|BioGPT-QA-PubMedQA-BioGPT|Fine-tuned BioGPT for question answering task on PubMedQA|[link](https://msralaphilly2.blob.core.windows.net/release/BioGPT/checkpoints/QA-PubMedQA-BioGPT.tgz?sp=r&st=2023-11-13T15:38:43Z&se=2099-12-30T23:38:43Z&spr=https&sv=2022-11-02&sr=b&sig=A5SQae6ifsXmrsgpj4E2flhyXm4iHc%2FqO5b8HGOMyjc%3D)| |
+|BioGPT-QA-PubMedQA-BioGPT-Large|Fine-tuned BioGPT-Large for question answering task on PubMedQA|[link](https://msralaphilly2.blob.core.windows.net/release/BioGPT/checkpoints/QA-PubMedQA-BioGPT-Large.tgz?sp=r&st=2023-11-13T15:39:40Z&se=2099-12-30T23:39:40Z&spr=https&sv=2022-11-02&sr=b&sig=t%2B%2FD%2BxVoIxiuyDsD0VXv%2FjSGoS0VcrdVXycYhWZoxUc%3D)||
+|BioGPT-RE-BC5CDR|Fine-tuned BioGPT for relation extraction task on BC5CDR|[link](https://msralaphilly2.blob.core.windows.net/release/BioGPT/checkpoints/RE-BC5CDR-BioGPT.tgz?sp=r&st=2023-11-13T15:35:14Z&se=2099-12-30T23:35:14Z&spr=https&sv=2022-11-02&sr=b&sig=uXlLIHlVeKIbS%2BVmdzAmlNCeKdoKO2lxsSmwSi%2FH8nE%3D)| |
+|BioGPT-RE-DDI|Fine-tuned BioGPT for relation extraction task on DDI|[link](https://msralaphilly2.blob.core.windows.net/release/BioGPT/checkpoints/RE-DDI-BioGPT.tgz?sp=r&st=2023-11-13T15:35:58Z&se=2099-12-30T23:35:58Z&spr=https&sv=2022-11-02&sr=b&sig=DkaQMuM%2FXAsM2p8%2BUs45ecuqhlSRF1DUYRBJNcxD6Pk%3D)| |
+|BioGPT-RE-DTI|Fine-tuned BioGPT for relation extraction task on KD-DTI|[link](https://msralaphilly2.blob.core.windows.net/release/BioGPT/checkpoints/RE-DTI-BioGPT.tgz?sp=r&st=2023-11-13T15:36:23Z&se=2099-12-30T23:36:23Z&spr=https&sv=2022-11-02&sr=b&sig=bRgUZyqGuwYdM%2FVFzIv6Xa0GThkXq6bVzszmTe9c%2BKM%3D)| |
+|BioGPT-DC-HoC|Fine-tuned BioGPT for document classification task on HoC|[link](https://msralaphilly2.blob.core.windows.net/release/BioGPT/checkpoints/DC-HoC-BioGPT.tgz?sp=r&st=2023-11-13T15:37:17Z&se=2099-12-30T23:37:17Z&spr=https&sv=2022-11-02&sr=b&sig=1DxroWPt%2FBppCTy7QHs842lLy8SQRcUeUwSfMzDFvl0%3D)| |
 
 Download them and extract them to the `checkpoints` folder of this project.
 
@@ -60,7 +60,7 @@ For example:
 ``` bash
 mkdir checkpoints
 cd checkpoints
-wget https://msramllasc.blob.core.windows.net/modelrelease/BioGPT/checkpoints/Pre-trained-BioGPT.tgz
+wget https://msralaphilly2.blob.core.windows.net/release/BioGPT/checkpoints/Pre-trained-BioGPT.tgz?sp=r&st=2023-11-13T15:37:35Z&se=2099-12-30T23:37:35Z&spr=https&sv=2022-11-02&sr=b&sig=3CcG1TOhqJPBhkVutvVn3PtUq0vPyLBgwggUfojypfY%3D
 tar -zxvf Pre-trained-BioGPT.tgz
 ```
 
