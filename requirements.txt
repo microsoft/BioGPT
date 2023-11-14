@@ -11,7 +11,7 @@ lxml==4.9.2
 numpy==1.24.1
 omegaconf==2.0.6
 portalocker==2.7.0
-protobuf==3.20.1
+protobuf==3.20.2
 pycparser==2.21
 PyYAML==6.0
 regex==2022.10.31
